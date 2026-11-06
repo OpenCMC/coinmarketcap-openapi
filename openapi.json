@@ -63,8 +63,8 @@
       "description": "##### K-line candlestick and OHLCV price data for DEX pairs. This category includes 2 endpoints:\n- [/v1/k-line/points](/pro-api-reference/ohlcv#get-k-line-points) - Get K-line Points\n- [/v1/k-line/candles](/pro-api-reference/ohlcv#get-k-line-candles) - Get K-line Candles"
     },
     {
-      "name": "Others",
-      "description": "##### Additional DEX endpoints. This category includes 2 endpoints:\n- [/v1/blockchain/statistics/latest](/pro-api-reference/crypto-others#statistics-latest) - Statistics Latest\n- [/v4/dex/pairs/trade/latest](/pro-api-reference/deprecated#trades-latest) - Trades Latest"
+      "name": "Crypto Others",
+      "description": "##### Blockchain statistics. This category includes 1 endpoint:\n- [/v1/blockchain/statistics/latest](/pro-api-reference/crypto-others#statistics-latest) - Statistics Latest"
     },
     {
       "name": "Tools",
@@ -72,7 +72,7 @@
     },
     {
       "name": "Deprecated",
-      "description": "##### Deprecated (V1) Endpoints\n\nThese endpoints have been replaced by their V2/V3 versions and are no longer actively supported. We strongly recommend migrating to the latest versions.\n\n- [/v1/cryptocurrency/info](/pro-api-reference/deprecated#metadata-v1-deprecated) - Metadata v1\n- [/v1/tools/price-conversion](/pro-api-reference/deprecated#price-conversion-v1-deprecated) - Price Conversion v1\n- [/v1/cryptocurrency/listings/latest](/pro-api-reference/deprecated#listings-latest-v1-deprecated) - Listings Latest v1\n- [/v1/cryptocurrency/market-pairs/latest](/pro-api-reference/deprecated#market-pairs-latest-v1-deprecated) - Market Pairs Latest v1\n- [/v1/cryptocurrency/ohlcv/historical](/pro-api-reference/deprecated#ohlcv-historical-v1-deprecated) - OHLCV Historical v1\n- [/v1/cryptocurrency/ohlcv/latest](/pro-api-reference/deprecated#ohlcv-latest-v1-deprecated) - OHLCV Latest v1\n- [/v1/cryptocurrency/price-performance-stats/latest](/pro-api-reference/deprecated#price-performance-stats-v1-deprecated) - Price Performance Stats v1\n- [/v1/cryptocurrency/quotes/historical](/pro-api-reference/deprecated#quotes-historical-v1-deprecated) - Quotes Historical v1\n- [/v1/cryptocurrency/quotes/latest](/pro-api-reference/deprecated#quotes-latest-v1-deprecated) - Quotes Latest v1\n- [/v1/partners/flipside-crypto/fcas/listings/latest](/pro-api-reference/deprecated#fcas-listings-latest-deprecated) - FCAS Listings Latest\n- [/v1/partners/flipside-crypto/fcas/quotes/latest](/pro-api-reference/deprecated#fcas-quotes-latest-deprecated) - FCAS Quotes Latest\n- [/v1/simple/price](/pro-api-reference/deprecated#simple-price-v1-deprecated) - Simple Price v1\n\n##### Legacy cryptocurrency quotes (V2)\n\nPrefer [/v3/cryptocurrency/quotes/latest](/pro-api-reference/cryptocurrency#quotes-latest) and [/v3/cryptocurrency/quotes/historical](/pro-api-reference/cryptocurrency#quotes-historical).\n\n- [/v2/cryptocurrency/quotes/latest](/pro-api-reference/deprecated#quotes-latest-v2) - Quotes Latest v2\n- [/v2/cryptocurrency/quotes/historical](/pro-api-reference/deprecated#quotes-historical-v2) - Quotes Historical v2\n\n##### Legacy ERC-8056 UI multiplier endpoints\n\n- [/v1/cryptocurrency/multiplier](/pro-api-reference/deprecated#cryptocurrency-multiplier) - Cryptocurrency Multiplier\n- [/v2/dex/multiplier](/pro-api-reference/deprecated#get-token-multiplier) - Get Token Multiplier"
+      "description": "##### Endpoints replaced by newer versions and no longer actively supported. We strongly recommend migrating to the latest versions. This category includes 22 endpoints:\n\n##### Deprecated (V1) Endpoints\n\n- [/v1/cryptocurrency/info](/pro-api-reference/deprecated#metadata-v1-deprecated) - Metadata v1\n- [/v1/tools/price-conversion](/pro-api-reference/deprecated#price-conversion-v1-deprecated) - Price Conversion v1\n- [/v1/cryptocurrency/listings/latest](/pro-api-reference/deprecated#listings-latest-v1-deprecated) - Listings Latest v1\n- [/v1/cryptocurrency/market-pairs/latest](/pro-api-reference/deprecated#market-pairs-latest-v1-deprecated) - Market Pairs Latest v1\n- [/v1/cryptocurrency/ohlcv/historical](/pro-api-reference/deprecated#ohlcv-historical-v1-deprecated) - OHLCV Historical v1\n- [/v1/cryptocurrency/ohlcv/latest](/pro-api-reference/deprecated#ohlcv-latest-v1-deprecated) - OHLCV Latest v1\n- [/v1/cryptocurrency/price-performance-stats/latest](/pro-api-reference/deprecated#price-performance-stats-v1-deprecated) - Price Performance Stats v1\n- [/v1/cryptocurrency/quotes/historical](/pro-api-reference/deprecated#quotes-historical-v1-deprecated) - Quotes Historical v1\n- [/v1/cryptocurrency/quotes/latest](/pro-api-reference/deprecated#quotes-latest-v1-deprecated) - Quotes Latest v1\n- [/v1/partners/flipside-crypto/fcas/listings/latest](/pro-api-reference/deprecated#fcas-listings-latest-deprecated) - FCAS Listings Latest\n- [/v1/partners/flipside-crypto/fcas/quotes/latest](/pro-api-reference/deprecated#fcas-quotes-latest-deprecated) - FCAS Quotes Latest\n- [/v1/simple/price](/pro-api-reference/deprecated#simple-price-v1-deprecated) - Simple Price v1\n\n##### Legacy cryptocurrency quotes (V2)\n\nPrefer [/v3/cryptocurrency/quotes/latest](/pro-api-reference/cryptocurrency#quotes-latest) and [/v3/cryptocurrency/quotes/historical](/pro-api-reference/cryptocurrency#quotes-historical).\n\n- [/v2/cryptocurrency/quotes/latest](/pro-api-reference/deprecated#quotes-latest-v2) - Quotes Latest v2\n- [/v2/cryptocurrency/quotes/historical](/pro-api-reference/deprecated#quotes-historical-v2) - Quotes Historical v2\n\n##### Legacy DEX endpoints (V4)\n\nFor DEX data, use the [Token](/pro-api-reference/token), [Platform](/pro-api-reference/platform), and [OHLCV](/pro-api-reference/ohlcv) endpoints.\n\n- [/v4/dex/listings/info](/pro-api-reference/deprecated#dex-metadata) - DEX Metadata\n- [/v4/dex/listings/quotes](/pro-api-reference/deprecated#dex-listings-latest) - DEX Listings Latest\n- [/v4/dex/networks/list](/pro-api-reference/deprecated#coinmarketcap-id-map) - CoinMarketCap ID Map\n- [/v4/dex/pairs/ohlcv/historical](/pro-api-reference/deprecated#ohlcv-historical-2) - OHLCV Historical\n- [/v4/dex/pairs/ohlcv/latest](/pro-api-reference/deprecated#ohlcv-latest-2) - OHLCV Latest\n- [/v4/dex/pairs/trade/latest](/pro-api-reference/deprecated#trades-latest) - Trades Latest\n\n##### Legacy ERC-8056 UI multiplier endpoints\n\n- [/v1/cryptocurrency/multiplier](/pro-api-reference/deprecated#cryptocurrency-multiplier) - Cryptocurrency Multiplier\n- [/v2/dex/multiplier](/pro-api-reference/deprecated#get-token-multiplier) - Get Token Multiplier"
     }
   ],
   "paths": {
@@ -395,7 +395,7 @@
       "get": {
         "tags": ["Cryptocurrency"],
         "summary": "Listings Latest",
-        "description": "Returns a paginated list of all active cryptocurrencies with latest market data. The default \"market_cap\" sort returns cryptocurrency in order of CoinMarketCap's market cap rank (as outlined in [our methodology](https://coinmarketcap.com/methodology/)) but you may configure this call to order by another market ranking field. Use the \"convert\" option to return market values in multiple fiat and cryptocurrency conversions in the same call.\n\n\nYou may sort against any of the following:  \n**market_cap**: CoinMarketCap's market cap rank as outlined in [our methodology](https://coinmarketcap.com/methodology/).  \n**market_cap_strict**: A strict market cap sort (latest trade price x circulating supply).  \n**name**: The cryptocurrency name.  \n**symbol**: The cryptocurrency symbol.  \n**date_added**: Date cryptocurrency was added to the system.  \n**price**: latest average trade price across markets.  \n**circulating_supply**: approximate number of coins currently in circulation.  \n**total_supply**: approximate total amount of coins in existence right now (minus any coins that have been verifiably burned).  \n**max_supply**: our best approximation of the maximum amount of coins that will ever exist in the lifetime of the currency.  \n**num_market_pairs**: number of market pairs across all exchanges trading each currency.  \n**market_cap_by_total_supply_strict**: market cap by total supply.  \n**volume_24h**: rolling 24 hour adjusted trading volume.  \n**volume_7d**: rolling 24 hour adjusted trading volume.  \n**volume_30d**: rolling 24 hour adjusted trading volume.  \n**percent_change_1h**: 1 hour trading price percentage change for each currency.  \n**percent_change_24h**: 24 hour trading price percentage change for each currency.  \n**percent_change_7d**: 7 day trading price percentage change for each currency.  \n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v3/cryptocurrency/listings/latest`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>\n\n**Cache / Update frequency:** Every 60 seconds.  \n**Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit per \\`convert\\` option beyond the first.\n**CMC equivalent pages:** Our latest cryptocurrency listing and ranking pages like [coinmarketcap.com/all/views/all/](https://coinmarketcap.com/all/views/all/), [coinmarketcap.com/tokens/](https://coinmarketcap.com/tokens/), [coinmarketcap.com/gainers-losers/](https://coinmarketcap.com/gainers-losers/), [coinmarketcap.com/new/](https://coinmarketcap.com/new/).     \n  \n***NOTE:** Use this endpoint if you need a sorted and paginated list of all cryptocurrencies. If you want to query for market data on a few specific cryptocurrencies use `/v3/cryptocurrency/quotes/latest` which is optimized for that purpose. The response data between these endpoints is otherwise the same.* ",
+        "description": "Returns a paginated list of all active cryptocurrencies with latest market data. The default \"market_cap\" sort returns cryptocurrency in order of CoinMarketCap's market cap rank (as outlined in [our methodology](https://coinmarketcap.com/methodology/)) but you may configure this call to order by another market ranking field. Use the \"convert\" option to return market values in multiple fiat and cryptocurrency conversions in the same call.\n\n\nYou may sort against any of the following:  \n**market_cap**: CoinMarketCap's market cap rank as outlined in [our methodology](https://coinmarketcap.com/methodology/).  \n**market_cap_strict**: A strict market cap sort (latest trade price x circulating supply).  \n**name**: The cryptocurrency name.  \n**symbol**: The cryptocurrency symbol.  \n**date_added**: Date cryptocurrency was added to the system.  \n**price**: latest average trade price across markets.  \n**circulating_supply**: approximate number of coins currently in circulation.  \n**total_supply**: approximate total amount of coins in existence right now (minus any coins that have been verifiably burned).  \n**max_supply**: our best approximation of the maximum amount of coins that will ever exist in the lifetime of the currency.  \n**num_market_pairs**: number of market pairs across all exchanges trading each currency.  \n**market_cap_by_total_supply_strict**: market cap by total supply.  \n**volume_24h**: rolling 24 hour adjusted trading volume.  \n**volume_7d**: rolling 24 hour adjusted trading volume.  \n**volume_30d**: rolling 24 hour adjusted trading volume.  \n**percent_change_1h**: 1 hour trading price percentage change for each currency.  \n**percent_change_24h**: 24 hour trading price percentage change for each currency.  \n**percent_change_7d**: 7 day trading price percentage change for each currency.  \n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v3/cryptocurrency/listings/latest`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>\n\n**Cache / Update frequency:** Every 15 seconds.  \n**Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit per \\`convert\\` option beyond the first.\n**CMC equivalent pages:** Our latest cryptocurrency listing and ranking pages like [coinmarketcap.com/all/views/all/](https://coinmarketcap.com/all/views/all/), [coinmarketcap.com/tokens/](https://coinmarketcap.com/tokens/), [coinmarketcap.com/gainers-losers/](https://coinmarketcap.com/gainers-losers/), [coinmarketcap.com/new/](https://coinmarketcap.com/new/).     \n  \n***NOTE:** Use this endpoint if you need a sorted and paginated list of all cryptocurrencies. If you want to query for market data on a few specific cryptocurrencies use `/v3/cryptocurrency/quotes/latest` which is optimized for that purpose. The response data between these endpoints is otherwise the same.* ",
         "operationId": "getV3CryptocurrencyListingsLatest",
         "x-keyless": true,
         "parameters": [
@@ -812,7 +812,7 @@
                   ],
                   "status": {
                     "timestamp": "2026-06-19T14:03:33.664Z",
-                    "error_code": 0,
+                    "error_code": "0",
                     "error_message": "",
                     "elapsed": 8,
                     "credit_count": 1
@@ -878,7 +878,7 @@
       "get": {
         "summary": "Listings New",
         "operationId": "getV1CryptocurrencyListingsNew",
-        "description": "Returns a paginated list of most recently added cryptocurrencies.\n\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** Every 60 seconds.  \n**Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit per `convert` option beyond the first.  \n**CMC equivalent pages:** Our \"new\" cryptocurrency page [coinmarketcap.com/new/](https://coinmarketcap.com/new)\n  \n***NOTE:** Use this endpoint if you need a sorted and paginated list of all recently added cryptocurrencies.* ",
+        "description": "Returns a paginated list of most recently added cryptocurrencies.\n\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** Every 15 seconds for quotes. Newly added cryptocurrencies usually appear in the list within 10 minutes.  \n**Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit per `convert` option beyond the first.  \n**CMC equivalent pages:** Our \"new\" cryptocurrency page [coinmarketcap.com/new/](https://coinmarketcap.com/new)\n  \n***NOTE:** Use this endpoint if you need a sorted and paginated list of all recently added cryptocurrencies.* ",
         "parameters": [
           {
             "description": "Optionally offset the start (1-based index) of the paginated list of items to return.",
@@ -1171,7 +1171,7 @@
       "get": {
         "tags": ["Cryptocurrency"],
         "summary": "Quotes Latest",
-        "description": "Returns the latest market quote for 1 or more cryptocurrencies. Use the \"convert\" option to return market values in multiple fiat and cryptocurrency conversions in the same call.\n\n**Please note**: This documentation relates to our updated V3 endpoint, which may be incompatible with our V2 versions. Documentation for deprecated endpoints can be found [the deprecated section](/pro-api-reference/deprecated).\n\n\n**This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n- Basic\n- Startup\n- Builder\n- Growth\n- Professional\n- Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v3/cryptocurrency/quotes/latest`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>\n\n**Cache / Update frequency:** Every 60 seconds.  \n**Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit per \\`convert\\` option beyond the first.  \n**CMC equivalent pages:** Latest market data pages for specific cryptocurrencies like [coinmarketcap.com/currencies/bitcoin/](https://coinmarketcap.com/currencies/bitcoin/).  \n   \n***NOTE:** Use this endpoint to request the latest quote for specific cryptocurrencies. If you need to request all cryptocurrencies use `/v3/cryptocurrency/listings/latest` which is optimized for that purpose. The response data between these endpoints is otherwise the same.*",
+        "description": "Returns the latest market quote for 1 or more cryptocurrencies. Use the \"convert\" option to return market values in multiple fiat and cryptocurrency conversions in the same call.\n\n**Please note**: This documentation relates to our updated V3 endpoint, which may be incompatible with our V2 versions. Documentation for deprecated endpoints can be found [the deprecated section](/pro-api-reference/deprecated).\n\n\n**This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n- Basic\n- Startup\n- Builder\n- Growth\n- Professional\n- Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v3/cryptocurrency/quotes/latest`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>\n\n**Cache / Update frequency:** Every 15 to 25 seconds.  \n**Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit per \\`convert\\` option beyond the first.  \n**CMC equivalent pages:** Latest market data pages for specific cryptocurrencies like [coinmarketcap.com/currencies/bitcoin/](https://coinmarketcap.com/currencies/bitcoin/).  \n   \n***NOTE:** Use this endpoint to request the latest quote for specific cryptocurrencies. If you need to request all cryptocurrencies use `/v3/cryptocurrency/listings/latest` which is optimized for that purpose. The response data between these endpoints is otherwise the same.*",
         "operationId": "getV3CryptocurrencyQuotesLatest",
         "x-keyless": true,
         "parameters": [
@@ -1449,7 +1449,7 @@
       "get": {
         "summary": "OHLCV Latest",
         "operationId": "getV2CryptocurrencyOhlcvLatest",
-        "description": "Returns the latest OHLCV (Open, High, Low, Close, Volume) market values for one or more cryptocurrencies for the current UTC day. Since the current UTC day is still active these values are updated frequently. You can find the final calculated OHLCV values for the last completed UTC day along with all historic days using /cryptocurrency/ohlcv/historical. \n\n**Please note**: This documentation relates to our updated V2 endpoint, which may be incompatible with our V1 versions. Documentation for deprecated endpoints can be found [the deprecated section](/pro-api-reference/deprecated).\n\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - ~~Basic~~\n  - ~~Builder~~\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n  **Cache / Update frequency:** Every 10 minutes. Additional OHLCV intervals and 1 minute updates will be available in the future.  \n  **Plan credit use:** 1 call credit per 250 OHLCV values returned (rounded up) and 1 call credit per `convert` option beyond the first.  \n  **CMC equivalent pages:** No equivalent, this data is only available via API.",
+        "description": "Returns the latest OHLCV (Open, High, Low, Close, Volume) market values for one or more cryptocurrencies for the current UTC day. Since the current UTC day is still active these values are updated frequently. You can find the final calculated OHLCV values for the last completed UTC day along with all historic days using /cryptocurrency/ohlcv/historical. \n\n**Please note**: This documentation relates to our updated V2 endpoint, which may be incompatible with our V1 versions. Documentation for deprecated endpoints can be found [the deprecated section](/pro-api-reference/deprecated).\n\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - ~~Basic~~\n  - ~~Builder~~\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n  **Cache / Update frequency:** Every 15 to 25 seconds for `close`, and every 5 to 7 minutes for `open`, `high`, `low`, and `volume`. Additional OHLCV intervals and 1 minute updates will be available in the future.  \n  **Plan credit use:** 1 call credit per 250 OHLCV values returned (rounded up) and 1 call credit per `convert` option beyond the first.  \n  **CMC equivalent pages:** No equivalent, this data is only available via API.",
         "parameters": [
           {
             "description": "One or more comma-separated cryptocurrency CoinMarketCap IDs. Example: 1,2",
@@ -2248,7 +2248,7 @@
       "get": {
         "summary": "Trending Latest",
         "operationId": "getV1CryptocurrencyTrendingLatest",
-        "description": "Returns a paginated list of all trending cryptocurrency market data, determined and sorted by CoinMarketCap search volume.\n\n\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** Every 10 minutes.  \n**Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit per `convert` option beyond the first.  \n**CMC equivalent pages:** Our cryptocurrency Trending page [coinmarketcap.com/trending-cryptocurrencies/](https://coinmarketcap.com/trending-cryptocurrencies/).",
+        "description": "Returns a paginated list of all trending cryptocurrency market data, determined and sorted by CoinMarketCap search volume.\n\n\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** Every 10 minutes for the list (every 12 hours for the 30d list), and every 15 to 25 seconds for quotes. The default first page (`start=1`, `limit=100`, USD) can be up to 10 minutes old.  \n**Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit per `convert` option beyond the first.  \n**CMC equivalent pages:** Our cryptocurrency Trending page [coinmarketcap.com/trending-cryptocurrencies/](https://coinmarketcap.com/trending-cryptocurrencies/).",
         "parameters": [
           {
             "description": "Optionally offset the start (1-based index) of the paginated list of items to return.",
@@ -2369,7 +2369,7 @@
       "get": {
         "summary": "Trending Gainers & Losers",
         "operationId": "getV1CryptocurrencyTrendingGainerslosers",
-        "description": "Returns a paginated list of all trending cryptocurrencies, determined and sorted by the largest price gains or losses.\n\n\nYou may sort against any of the following:  \n**percent_change_24h**: 24 hour trading price percentage change for each currency.\n\n**This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** Every 10 minutes.  \n**Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit per `convert` option beyond the first.  \n**CMC equivalent pages:** Our cryptocurrency Gainers & Losers page [coinmarketcap.com/gainers-losers/](https://coinmarketcap.com/gainers-losers/).",
+        "description": "Returns a paginated list of all trending cryptocurrencies, determined and sorted by the largest price gains or losses.\n\n\nYou may sort against any of the following:  \n**percent_change_24h**: 24 hour trading price percentage change for each currency.\n\n**This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** Every 60 seconds for the list, and every 15 to 25 seconds for quotes.  \n**Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit per `convert` option beyond the first.  \n**CMC equivalent pages:** Our cryptocurrency Gainers & Losers page [coinmarketcap.com/gainers-losers/](https://coinmarketcap.com/gainers-losers/).",
         "parameters": [
           {
             "description": "Optionally offset the start (1-based index) of the paginated list of items to return.",
@@ -2509,7 +2509,7 @@
       "get": {
         "summary": "Trending Most Visited",
         "operationId": "getV1CryptocurrencyTrendingMostvisited",
-        "description": "Returns a paginated list of all trending cryptocurrency market data, determined and sorted by traffic to coin detail pages.\n\n\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** Every 24 hours.  \n**Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit per `convert` option beyond the first.  \n**CMC equivalent pages:** The CoinMarketCap “Most Visited” trending list. [coinmarketcap.com/most-viewed-pages/](https://coinmarketcap.com/most-viewed-pages/).",
+        "description": "Returns a paginated list of all trending cryptocurrency market data, determined and sorted by traffic to coin detail pages.\n\n\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** Every 4 hours for the list, and every 15 to 25 seconds for quotes.  \n**Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit per `convert` option beyond the first.  \n**CMC equivalent pages:** The CoinMarketCap “Most Visited” trending list. [coinmarketcap.com/most-viewed-pages/](https://coinmarketcap.com/most-viewed-pages/).",
         "parameters": [
           {
             "description": "Optionally offset the start (1-based index) of the paginated list of items to return.",
@@ -2631,7 +2631,7 @@
         "summary": "Simple Price",
         "operationId": "getV2SimplePrice",
         "x-keyless": true,
-        "description": "Returns a lightweight latest price for one or more cryptocurrencies, with optional inline market cap, 24h volume, 24h change, and freshness timestamp. It is a slimmed-down alternative to [/v3/cryptocurrency/quotes/latest](/pro-api-reference/cryptocurrency#quotes-latest), optimized for the single most common question - \"what is X worth right now\" - without returning the full `quote` object.\n\nYou can look assets up by `id`, `slug`, or `symbol`, and at least one of those is required. The endpoint deliberately does not return supply, rank, market pairs, or descriptive metadata; for any of those, use [/v3/cryptocurrency/quotes/latest](/pro-api-reference/cryptocurrency#quotes-latest) or [/v2/cryptocurrency/info](/pro-api-reference/cryptocurrency#metadata) instead.\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v2/simple/price`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>\n\n**Cache / Update frequency:** Every 60 seconds.  \n**Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up), plus 1 credit per `convert` / `convert_id` option beyond the first. The `include_*` flags do not add credits.",
+        "description": "Returns a lightweight latest price for one or more cryptocurrencies, with optional inline market cap, 24h volume, 24h change, and freshness timestamp. It is a slimmed-down alternative to [/v3/cryptocurrency/quotes/latest](/pro-api-reference/cryptocurrency#quotes-latest), optimized for the single most common question - \"what is X worth right now\" - without returning the full `quote` object.\n\nYou can look assets up by `id`, `slug`, or `symbol`, and at least one of those is required. The endpoint deliberately does not return supply, rank, market pairs, or descriptive metadata; for any of those, use [/v3/cryptocurrency/quotes/latest](/pro-api-reference/cryptocurrency#quotes-latest) or [/v2/cryptocurrency/info](/pro-api-reference/cryptocurrency#metadata) instead.\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v2/simple/price`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>\n\n**Cache / Update frequency:** Every 15 to 25 seconds.  \n**Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up), plus 1 credit per `convert` / `convert_id` option beyond the first. The `include_*` flags do not add credits.",
         "parameters": [
           {
             "name": "id",
@@ -2872,7 +2872,7 @@
         "summary": "Categories",
         "operationId": "getV1CryptocurrencyCategories",
         "x-keyless": true,
-        "description": "Returns information about all coin categories available on CoinMarketCap. Includes a paginated list of cryptocurrency quotes and metadata from each category.\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Free\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/cryptocurrency/categories`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>\n\n**Cache / Update frequency:** Data is updated only as needed, every 30 seconds.  \n**Plan credit use:** 1 API call credit per request + 1 call credit per 200 cryptocurrencies returned (rounded up) and 1 call credit per `convert` option beyond the first.  \n**CMC equivalent pages:** Our free airdrops page [coinmarketcap.com/cryptocurrency-category/](https://coinmarketcap.com/cryptocurrency-category/).",
+        "description": "Returns information about all coin categories available on CoinMarketCap. Includes a paginated list of cryptocurrency quotes and metadata from each category.\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/cryptocurrency/categories`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>\n\n**Cache / Update frequency:** Every 5 to 15 minutes.  \n**Plan credit use:** 1 API call credit per request + 1 call credit per 200 cryptocurrencies returned (rounded up) and 1 call credit per `convert` option beyond the first.  \n**CMC equivalent pages:** Our free airdrops page [coinmarketcap.com/cryptocurrency-category/](https://coinmarketcap.com/cryptocurrency-category/).",
         "parameters": [
           {
             "description": "Optionally offset the start (1-based index) of the paginated list of items to return.",
@@ -2995,7 +2995,7 @@
         "summary": "Category",
         "operationId": "getV1CryptocurrencyCategory",
         "x-keyless": true,
-        "description": "Returns information about a single coin category available on CoinMarketCap. Includes a paginated list of the cryptocurrency quotes and metadata for the category.\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Free\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/cryptocurrency/category`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>\n\n**Cache / Update frequency:** Data is updated only as needed, every 30 seconds.  \n**Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit per `convert` option beyond the first.  \n**CMC equivalent pages:** Our Cryptocurrency Category page [coinmarketcap.com/cryptocurrency-category/](https://coinmarketcap.com/cryptocurrency-category/).",
+        "description": "Returns information about a single coin category available on CoinMarketCap. Includes a paginated list of the cryptocurrency quotes and metadata for the category.\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/cryptocurrency/category`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>\n\n**Cache / Update frequency:** Every 15 seconds for cryptocurrency quotes, and every 5 to 15 minutes for category statistics.  \n**Plan credit use:** 1 call credit per 250 cryptocurrencies returned (rounded up) and 1 call credit per `convert` option beyond the first.  \n**CMC equivalent pages:** Our Cryptocurrency Category page [coinmarketcap.com/cryptocurrency-category/](https://coinmarketcap.com/cryptocurrency-category/).",
         "parameters": [
           {
             "description": "The Category ID. This can be found using the Categories API.",
@@ -4464,7 +4464,7 @@
       "get": {
         "summary": "Exchange Assets",
         "operationId": "getV1ExchangeAssets",
-        "description": "Returns the exchange assets in the form of token holdings. This information includes details like wallet address, cryptocurrency, blockchain platform, balance, and etc.\n\n\n  * Only wallets containing at least 100,000 USD in balance are shown\n  * Balances from wallets might be delayed\n  \n  ** Disclaimer:\n  All information and data relating to the holdings in the third-party wallet addresses are provided by the third parties to CoinMarketCap, and CoinMarketCap does not confirm or verify the accuracy or timeliness of such information and data.\n  The information and data are provided \"as is\" without warranty of any kind. CoinMarketCap shall have no responsibility or liability for these third parties’ information and data or have the duty to review, confirm, verify or otherwise perform any inquiry or investigation as to the completeness, accuracy, sufficiency, integrity, reliability or timeliness of any such information or data provided.\n    \n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Free\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n  \n  **Cache / Update frequency:** Balance data is updated statically based on the source. Price data is updated every 5 minutes.  \n  **Plan credit use:** 1 credit.  \n  **CMC equivalent pages:** Exchange detail page like [coinmarketcap.com/exchanges/binance/](https://coinmarketcap.com/exchanges/binance/)",
+        "description": "Returns the exchange assets in the form of token holdings. This information includes details like wallet address, cryptocurrency, blockchain platform, balance, and etc.\n\n\n  * Only wallets containing at least 100,000 USD in balance are shown\n  * Balances from wallets might be delayed\n  \n  ** Disclaimer:\n  All information and data relating to the holdings in the third-party wallet addresses are provided by the third parties to CoinMarketCap, and CoinMarketCap does not confirm or verify the accuracy or timeliness of such information and data.\n  The information and data are provided \"as is\" without warranty of any kind. CoinMarketCap shall have no responsibility or liability for these third parties’ information and data or have the duty to review, confirm, verify or otherwise perform any inquiry or investigation as to the completeness, accuracy, sufficiency, integrity, reliability or timeliness of any such information or data provided.\n    \n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n  \n  **Cache / Update frequency:** Balance data is updated statically based on the source. Price data is updated every 5 minutes.  \n  **Plan credit use:** 1 credit.  \n  **CMC equivalent pages:** Exchange detail page like [coinmarketcap.com/exchanges/binance/](https://coinmarketcap.com/exchanges/binance/)",
         "parameters": [
           {
             "description": "A CoinMarketCap exchange ID. Example: 270",
@@ -4829,7 +4829,7 @@
       "get": {
         "summary": "Postman Conversion v1",
         "operationId": "getV1ToolsPostman",
-        "description": "Convert APIs into postman format. You can reference the operation from [this article](https://coinmarketcap.com/alexandria/article/register-for-coinmarketcap-api).\n  \n  \n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Free\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n  **Technical Notes**\n  - Set the env variables in the postman: {{baseUrl}}, {{API_KEY}}\n",
+        "description": "Convert APIs into postman format. You can reference the operation from [this article](https://coinmarketcap.com/alexandria/article/register-for-coinmarketcap-api).\n  \n  \n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n  **Technical Notes**\n  - Set the env variables in the postman: {{baseUrl}}, {{API_KEY}}\n",
         "tags": ["Tools"],
         "responses": {
           "400": {
@@ -7235,7 +7235,7 @@
       "get": {
         "summary": "List derivatives exchanges",
         "operationId": "getV5ExchangeDerivativesList",
-        "description": "Returns the list of derivatives exchanges CoinMarketCap tracks, sorted by 24-hour derivative volume in descending order by default. Only exchanges with active derivative trading (open interest or derivative volume > 0) are returned.\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Free\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** Every 60 seconds.  \n**Plan credit use:** 1 call credit per 250 exchanges returned (rounded up) and 1 additional call credit per `convert` option beyond the first.  ",
+        "description": "Returns the list of derivatives exchanges CoinMarketCap tracks, sorted by 24-hour derivative volume in descending order by default. Only exchanges with active derivative trading (open interest or derivative volume > 0) are returned.\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** Every 60 seconds.  \n**Plan credit use:** 1 call credit per 250 exchanges returned (rounded up) and 1 additional call credit per `convert` option beyond the first.  ",
         "parameters": [
           {
             "description": "Optionally offset the start (1-based index) of the paginated list of items to return.",
@@ -7368,7 +7368,7 @@
       "get": {
         "summary": "Derivative market pairs by exchange",
         "operationId": "getV5ExchangeDerivativesMarketPairsListLatest",
-        "description": "Returns all active derivative market pairs that CoinMarketCap tracks for a given exchange.\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Free\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** Every 60 seconds.  \n**Plan credit use:** 1 call credit per 250 market pairs returned (rounded up) and 1 call credit per `convert` option beyond the first.",
+        "description": "Returns all active derivative market pairs that CoinMarketCap tracks for a given exchange.\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** Every 60 seconds.  \n**Plan credit use:** 1 call credit per 250 market pairs returned (rounded up) and 1 call credit per `convert` option beyond the first.",
         "parameters": [
           {
             "description": "A CoinMarketCap exchange ID. Example: \"270\"",
@@ -7562,7 +7562,7 @@
       "get": {
         "summary": "Derivative market pairs by cryptocurrency",
         "operationId": "getV5CryptocurrencyDerivativesMarketPairsListLatest",
-        "description": "Returns all active derivative market pairs that CoinMarketCap tracks for a given cryptocurrency, across exchanges.\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Free\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** Every 60 seconds.  \n**Plan credit use:** 1 call credit per 250 market pairs returned (rounded up) and 1 call credit per `convert` option beyond the first.",
+        "description": "Returns all active derivative market pairs that CoinMarketCap tracks for a given cryptocurrency, across exchanges.\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n**Cache / Update frequency:** Every 60 seconds.  \n**Plan credit use:** 1 call credit per 250 market pairs returned (rounded up) and 1 call credit per `convert` option beyond the first.",
         "parameters": [
           {
             "description": "A CoinMarketCap cryptocurrency ID. Example: \"1\"",
@@ -7796,7 +7796,6 @@
             "schema": {
               "type": "string",
               "pattern": "^\\d+(?:,\\d+)*$",
-              "default": "2781",
               "example": "2781"
             }
           }
@@ -7928,7 +7927,6 @@
             "schema": {
               "type": "string",
               "pattern": "^\\d+(?:,\\d+)*$",
-              "default": "2781",
               "example": "2781"
             }
           }
@@ -8070,7 +8068,6 @@
             "schema": {
               "type": "string",
               "pattern": "^\\d+(?:,\\d+)*$",
-              "default": "2781",
               "example": "2781"
             }
           }
@@ -9610,7 +9607,7 @@
       "post": {
         "tags": ["Token"],
         "summary": "Get trending tokens",
-        "description": "Get list of trending tokens",
+        "description": "Get list of trending tokens\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise",
         "operationId": "getTrendingList",
         "responses": {
           "200": {
@@ -9633,7 +9630,7 @@
       "post": {
         "tags": ["Token"],
         "summary": "Batch query tokens",
-        "description": "Query multiple tokens in one request",
+        "description": "Query multiple tokens in one request\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise",
         "operationId": "batchQueryTokens",
         "responses": {
           "200": {
@@ -9663,7 +9660,7 @@
       "post": {
         "tags": ["Token"],
         "summary": "Batch get token prices",
-        "description": "Get prices for multiple tokens in one request",
+        "description": "Get prices for multiple tokens in one request\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise",
         "operationId": "batchGetTokenPrice",
         "responses": {
           "200": {
@@ -9693,7 +9690,7 @@
       "post": {
         "tags": ["Token"],
         "summary": "Get new tokens",
-        "description": "Get list of newly launched tokens",
+        "description": "Get list of newly launched tokens\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise",
         "operationId": "getNewList",
         "responses": {
           "200": {
@@ -9716,7 +9713,7 @@
       "post": {
         "tags": ["Token"],
         "summary": "Get meme tokens",
-        "description": "Get list of meme tokens",
+        "description": "Get list of meme tokens\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise",
         "operationId": "getMemeList",
         "responses": {
           "200": {
@@ -9746,7 +9743,7 @@
       "post": {
         "tags": ["Token"],
         "summary": "Get top gainers and losers",
-        "description": "Get list of top gainer and loser tokens",
+        "description": "Get list of top gainer and loser tokens\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise",
         "operationId": "getGainerLoserList",
         "responses": {
           "200": {
@@ -9920,7 +9917,7 @@
       "get": {
         "tags": ["Token"],
         "summary": "Pairs Listings Latest",
-        "description": "Returns a paginated list of all active dex spot pairs with latest market data. Use the \"convert\" option to return market values in multiple fiat and cryptocurrency conversions in the same call.\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v4/dex/spot-pairs/latest`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
+        "description": "Returns a paginated list of all active dex spot pairs with latest market data. Use the \"convert\" option to return market values in multiple fiat and cryptocurrency conversions in the same call.\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v4/dex/spot-pairs/latest`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
         "operationId": "getSpotPairsLatest",
         "x-keyless": true,
         "parameters": [
@@ -10293,7 +10290,7 @@
       "get": {
         "tags": ["Token"],
         "summary": "Quotes Latest",
-        "description": "Returns the latest market quote for 1 or more spot pairs. Use the \"convert\" option to return market values in multiple fiat and cryptocurrency conversions in the same call.\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v4/dex/pairs/quotes/latest`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
+        "description": "Returns the latest market quote for 1 or more spot pairs. Use the \"convert\" option to return market values in multiple fiat and cryptocurrency conversions in the same call.\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v4/dex/pairs/quotes/latest`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
         "operationId": "getLatestPairsQuotes",
         "x-keyless": true,
         "parameters": [
@@ -10830,7 +10827,7 @@
       "get": {
         "tags": ["OHLCV"],
         "summary": "Get K-line points",
-        "description": "Get K-line price points for a token.\n\nResponse Format: Each point is an array with 3 elements:\n- **[0]** price: Token price\n- **[1]** volume: Trading volume\n- **[2]** timestamp: UNIX timestamp (seconds)\n\nExample: ``[[1.23, 50000, 1705363200], ...]``\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/k-line/points`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
+        "description": "Get K-line price points for a token.\n\nResponse Format: Each point is an array with 3 elements:\n- **[0]** price: Token price\n- **[1]** volume: Trading volume\n- **[2]** timestamp: UNIX timestamp (seconds)\n\nExample: ``[[1.23, 50000, 1705363200], ...]``\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/k-line/points`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
         "operationId": "getKlinePoints",
         "x-keyless": true,
         "parameters": [
@@ -10928,7 +10925,7 @@
       "get": {
         "tags": ["OHLCV"],
         "summary": "Get K-line candles",
-        "description": "Get K-line candle (OHLCV) data for a token.\n\nResponse Format: Each candle is an array with 7 elements:\n- **[0]** open: Opening price\n- **[1]** high: Highest price\n- **[2]** low: Lowest price\n- **[3]** close: Closing price\n- **[4]** volume: Trading volume\n- **[5]** timestamp: UNIX timestamp (seconds)\n- **[6]** traders: Number of unique traders\n\nExample: ``[[1.23, 1.45, 1.20, 1.40, 50000, 1705363200, 128], ...]``\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/k-line/candles`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
+        "description": "Get K-line candle (OHLCV) data for a token.\n\nResponse Format: Each candle is an array with 7 elements:\n- **[0]** open: Opening price\n- **[1]** high: Highest price\n- **[2]** low: Lowest price\n- **[3]** close: Closing price\n- **[4]** volume: Trading volume\n- **[5]** timestamp: UNIX timestamp (seconds)\n- **[6]** traders: Number of unique traders\n\nExample: ``[[1.23, 1.45, 1.20, 1.40, 50000, 1705363200, 128], ...]``\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/k-line/candles`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
         "operationId": "getKlineCandles",
         "x-keyless": true,
         "parameters": [
@@ -11026,7 +11023,7 @@
       "get": {
         "tags": ["Token"],
         "summary": "Get token detail",
-        "description": "Get detailed information for a specific token\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/token`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
+        "description": "Get detailed information for a specific token\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/token`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
         "operationId": "getToken",
         "x-keyless": true,
         "parameters": [
@@ -11067,7 +11064,7 @@
       "get": {
         "tags": ["Token"],
         "summary": "Get token price",
-        "description": "Get current price for a specific token\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/token/price`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
+        "description": "Get current price for a specific token\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/token/price`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
         "operationId": "getTokenPrice",
         "x-keyless": true,
         "parameters": [
@@ -11108,7 +11105,7 @@
       "get": {
         "tags": ["Token"],
         "summary": "Get token pools",
-        "description": "Get all pools for a specific token\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/token/pools`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
+        "description": "Get all pools for a specific token\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/token/pools`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
         "operationId": "getTokenPools",
         "x-keyless": true,
         "parameters": [
@@ -11159,7 +11156,7 @@
       "get": {
         "tags": ["Token"],
         "summary": "Query token liquidity",
-        "description": "Get liquidity information for a specific token\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/token-liquidity/query`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
+        "description": "Get liquidity information for a specific token\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/token-liquidity/query`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
         "operationId": "queryTokenLiquidity",
         "x-keyless": true,
         "parameters": [
@@ -11238,7 +11235,7 @@
       "get": {
         "tags": ["Token"],
         "summary": "Get swap list",
-        "description": "Get swap/trade history for a token\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/tokens/transactions`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
+        "description": "Get swap/trade history for a token\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/tokens/transactions`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
         "operationId": "getSwapList",
         "x-keyless": true,
         "parameters": [
@@ -11395,7 +11392,7 @@
       "get": {
         "tags": ["Token"],
         "summary": "Get security detail",
-        "description": "Get security audit information for a token\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/security/detail`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
+        "description": "Get security audit information for a token\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/security/detail`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
         "operationId": "getSecurityDetail",
         "x-keyless": true,
         "parameters": [
@@ -11436,7 +11433,7 @@
       "get": {
         "tags": ["Token"],
         "summary": "Search tokens",
-        "description": "Search for tokens by keyword\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/search`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
+        "description": "Search for tokens by keyword\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/search`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
         "operationId": "search",
         "x-keyless": true,
         "parameters": [
@@ -11505,7 +11502,7 @@
       "get": {
         "tags": ["Platform"],
         "summary": "Get platform list",
-        "description": "Get list of all supported platforms\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/platform/list`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
+        "description": "Get list of all supported platforms\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/platform/list`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
         "operationId": "getPlatformList",
         "x-keyless": true,
         "responses": {
@@ -11526,7 +11523,7 @@
       "get": {
         "tags": ["Platform"],
         "summary": "Get platform detail",
-        "description": "Get detailed information for a specific platform\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/platform/detail`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
+        "description": "Get detailed information for a specific platform\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/platform/detail`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
         "operationId": "getPlatformDetail",
         "x-keyless": true,
         "parameters": [
@@ -11558,7 +11555,7 @@
       "get": {
         "tags": ["Token"],
         "summary": "Get liquidity change list",
-        "description": "Get liquidity change history for a token\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/liquidity-change/list`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
+        "description": "Get liquidity change history for a token\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/liquidity-change/list`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
         "operationId": "getLiquidityChangeList",
         "x-keyless": true,
         "parameters": [
@@ -11693,7 +11690,7 @@
       "post": {
         "tags": ["Holder"],
         "summary": "Get holders list",
-        "description": "Get detailed information for holders list\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/holders/list`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
+        "description": "Get detailed information for holders list\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/holders/list`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
         "operationId": "getHolders",
         "x-keyless": true,
         "requestBody": {
@@ -11724,7 +11721,7 @@
       "post": {
         "tags": ["Holder"],
         "summary": "Get holder detail",
-        "description": "Get detailed information for holders detail\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/holders/detail`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
+        "description": "Get detailed information for holders detail\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/holders/detail`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
         "operationId": "getHolderDetail",
         "x-keyless": true,
         "requestBody": {
@@ -11755,7 +11752,7 @@
       "get": {
         "tags": ["Holder"],
         "summary": "Get holder trend list",
-        "description": "Get detailed information for holders trend list",
+        "description": "Get detailed information for holders trend list\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise",
         "operationId": "getHoldTrendList",
         "parameters": [
           {
@@ -11834,7 +11831,7 @@
       "get": {
         "tags": ["Holder"],
         "summary": "Get holder tag count",
-        "description": "Get detailed information for holders tag count",
+        "description": "Get detailed information for holders tag count\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise",
         "operationId": "getHolderTagCount",
         "parameters": [
           {
@@ -11872,7 +11869,7 @@
       "get": {
         "tags": ["Holder"],
         "summary": "Get holder count",
-        "description": "Get detailed information for holders count\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/holders/count`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
+        "description": "Get detailed information for holders count\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic\n  - Builder\n  - Startup\n  - Growth\n  - Professional\n  - Enterprise\n\n<Callout type=\"tip\" title=\"Available with no API key\">Call this endpoint keyless - no API key, no signup. Prefix the path with `/public-api`: `https://pro-api.coinmarketcap.com/public-api/v1/dex/holders/count`. See the [Keyless Public API](https://coinmarketcap.com/api/documentation/pro-api-reference/keyless-public-api) for the full list, rate limits, and examples.</Callout>",
         "operationId": "getHolderCount",
         "x-keyless": true,
         "parameters": [
@@ -19706,7 +19703,7 @@
           "last_update": {
             "description": "Timestamp (ISO 8601) of the last time this record was updated.",
             "type": "string",
-            "format": "date"
+            "format": "date-time"
           },
           "next_update": {
             "description": "Timestamp (ISO 8601) of the next time this record will be updated.",
@@ -21300,7 +21297,7 @@
           "last_update": {
             "description": "Timestamp (ISO 8601) of the last time this record was updated.",
             "type": "string",
-            "format": "date"
+            "format": "date-time"
           },
           "next_update": {
             "description": "Timestamp (ISO 8601) of the next time this record will be updated.",
@@ -29454,7 +29451,7 @@
     },
     {
       "name": "Dex API",
-      "tags": ["Token", "Platform", "Holder", "OHLCV", "Others"]
+      "tags": ["Token", "Platform", "Holder", "OHLCV"]
     },
     {
       "name": "Tools",
