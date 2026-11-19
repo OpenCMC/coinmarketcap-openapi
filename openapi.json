@@ -12,7 +12,7 @@
   "tags": [
     {
       "name": "Cryptocurrency",
-      "description": "##### Endpoints for cryptocurrency data. This category includes 19 endpoints:\n- [/v1/cryptocurrency/map](/pro-api-reference/cryptocurrency#cryptocurrency-id-map) - Cryptocurrency ID Map\n- [/v3/cryptocurrency/listings/latest](/pro-api-reference/cryptocurrency#listings-latest) - Listings Latest\n- [/v1/cryptocurrency/listings/new](/pro-api-reference/cryptocurrency#listings-new) - Listings New\n- [/v1/cryptocurrency/listings/historical](/pro-api-reference/cryptocurrency#listings-historical) - Listings Historical\n- [/v3/cryptocurrency/quotes/latest](/pro-api-reference/cryptocurrency#quotes-latest) - Quotes Latest\n- [/v3/cryptocurrency/quotes/historical](/pro-api-reference/cryptocurrency#quotes-historical) - Quotes Historical\n- [/v2/cryptocurrency/ohlcv/latest](/pro-api-reference/cryptocurrency#ohlcv-latest) - OHLCV Latest\n- [/v2/cryptocurrency/ohlcv/historical](/pro-api-reference/cryptocurrency#ohlcv-historical) - OHLCV Historical\n- [/v2/cryptocurrency/market-pairs/latest](/pro-api-reference/cryptocurrency#market-pairs-latest) - Market Pairs Latest\n- [/v2/cryptocurrency/price-performance-stats/latest](/pro-api-reference/cryptocurrency#price-performance-stats) - Price Performance Stats\n- [/v2/cryptocurrency/info](/pro-api-reference/cryptocurrency#metadata) - Metadata\n- [/v1/cryptocurrency/trending/latest](/pro-api-reference/cryptocurrency#trending-latest) - Trending Latest\n- [/v1/cryptocurrency/trending/gainers-losers](/pro-api-reference/cryptocurrency#trending-gainers-losers) - Trending Gainers & Losers\n- [/v1/cryptocurrency/trending/most-visited](/pro-api-reference/cryptocurrency#trending-most-visited) - Trending Most Visited\n- [/v2/simple/price](/pro-api-reference/cryptocurrency#simple-price) - Simple Price\n- [/v1/cryptocurrency/categories](/pro-api-reference/cryptocurrency#categories) - Categories\n- [/v1/cryptocurrency/category](/pro-api-reference/cryptocurrency#category) - Category\n- [/v1/cryptocurrency/airdrops](/pro-api-reference/cryptocurrency#airdrops) - Airdrops\n- [/v1/cryptocurrency/airdrop](/pro-api-reference/cryptocurrency#airdrop) - Airdrop"
+      "description": "##### Endpoints for cryptocurrency data. This category includes 19 endpoints:\n- [/v1/cryptocurrency/map](/pro-api-reference/cryptocurrency#cryptocurrency-id-map) - Cryptocurrency ID Map\n- [/v3/cryptocurrency/listings/latest](/pro-api-reference/cryptocurrency#listings-latest) - Listings Latest\n- [/v1/cryptocurrency/listings/new](/pro-api-reference/cryptocurrency#listings-new) - Listings New\n- [/v1/cryptocurrency/listings/historical](/pro-api-reference/cryptocurrency#listings-historical) - Listings Historical\n- [/v3/cryptocurrency/quotes/latest](/pro-api-reference/cryptocurrency#quotes-latest) - Quotes Latest\n- [/v3/cryptocurrency/quotes/historical](/pro-api-reference/cryptocurrency#quotes-historical) - Quotes Historical\n- [/v2/cryptocurrency/ohlcv/latest](/pro-api-reference/cryptocurrency#ohlcv-latest) - OHLCV Latest\n- [/v5/cryptocurrency/ohlcv/historical](/pro-api-reference/cryptocurrency#ohlcv-historical) - OHLCV Historical\n- [/v2/cryptocurrency/market-pairs/latest](/pro-api-reference/cryptocurrency#market-pairs-latest) - Market Pairs Latest\n- [/v2/cryptocurrency/price-performance-stats/latest](/pro-api-reference/cryptocurrency#price-performance-stats) - Price Performance Stats\n- [/v2/cryptocurrency/info](/pro-api-reference/cryptocurrency#metadata) - Metadata\n- [/v1/cryptocurrency/trending/latest](/pro-api-reference/cryptocurrency#trending-latest) - Trending Latest\n- [/v1/cryptocurrency/trending/gainers-losers](/pro-api-reference/cryptocurrency#trending-gainers-losers) - Trending Gainers & Losers\n- [/v1/cryptocurrency/trending/most-visited](/pro-api-reference/cryptocurrency#trending-most-visited) - Trending Most Visited\n- [/v2/simple/price](/pro-api-reference/cryptocurrency#simple-price) - Simple Price\n- [/v1/cryptocurrency/categories](/pro-api-reference/cryptocurrency#categories) - Categories\n- [/v1/cryptocurrency/category](/pro-api-reference/cryptocurrency#category) - Category\n- [/v1/cryptocurrency/airdrops](/pro-api-reference/cryptocurrency#airdrops) - Airdrops\n- [/v1/cryptocurrency/airdrop](/pro-api-reference/cryptocurrency#airdrop) - Airdrop"
     },
     {
       "name": "Exchange",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Real World Assets",
-      "description": "##### Endpoints for tokenized Real-World Asset (RWA) data — equities, commodities, currencies, government securities, ETFs, and real estate. This category includes 7 endpoints:\n- [/v5/real-world-assets/map](/pro-api-reference/real-world-assets#rwa-id-map) - RWA ID Map\n- [/v5/real-world-assets/info](/pro-api-reference/real-world-assets#metadata-3) - Metadata\n- [/v5/real-world-assets/assets/list](/pro-api-reference/real-world-assets#rwa-list) - RWA List\n- [/v5/real-world-assets/market-pairs/list](/pro-api-reference/real-world-assets#market-pairs) - Market Pairs\n- [/v5/real-world-assets/quotes/latest](/pro-api-reference/real-world-assets#quotes-latest-5) - Quotes Latest\n- [/v5/real-world-assets/issuers/list](/pro-api-reference/real-world-assets#issuers-list) - Issuers List\n- [/v5/real-world-assets/issuers](/pro-api-reference/real-world-assets#issuer) - Issuer"
+      "description": "##### Endpoints for tokenized Real-World Asset (RWA) data — equities, commodities, currencies, government securities, ETFs, and real estate. This category includes 8 endpoints:\n- [/v5/real-world-assets/map](/pro-api-reference/real-world-assets#rwa-id-map) - RWA ID Map\n- [/v5/real-world-assets/info](/pro-api-reference/real-world-assets#metadata-3) - Metadata\n- [/v5/real-world-assets/assets/list](/pro-api-reference/real-world-assets#rwa-list) - RWA List\n- [/v5/real-world-assets/market-pairs/list](/pro-api-reference/real-world-assets#market-pairs) - Market Pairs\n- [/v5/real-world-assets/quotes/latest](/pro-api-reference/real-world-assets#quotes-latest-5) - Quotes Latest\n- [/v5/real-world-assets/quotes/historical](/pro-api-reference/real-world-assets#quotes-historical-4) - Quotes Historical\n- [/v5/real-world-assets/issuers/list](/pro-api-reference/real-world-assets#issuers-list) - Issuers List\n- [/v5/real-world-assets/issuers](/pro-api-reference/real-world-assets#issuer) - Issuer"
     },
     {
       "name": "Derivatives",
@@ -72,7 +72,7 @@
     },
     {
       "name": "Deprecated",
-      "description": "##### Endpoints replaced by newer versions and no longer actively supported. We strongly recommend migrating to the latest versions. This category includes 22 endpoints:\n\n##### Deprecated (V1) Endpoints\n\n- [/v1/cryptocurrency/info](/pro-api-reference/deprecated#metadata-v1-deprecated) - Metadata v1\n- [/v1/tools/price-conversion](/pro-api-reference/deprecated#price-conversion-v1-deprecated) - Price Conversion v1\n- [/v1/cryptocurrency/listings/latest](/pro-api-reference/deprecated#listings-latest-v1-deprecated) - Listings Latest v1\n- [/v1/cryptocurrency/market-pairs/latest](/pro-api-reference/deprecated#market-pairs-latest-v1-deprecated) - Market Pairs Latest v1\n- [/v1/cryptocurrency/ohlcv/historical](/pro-api-reference/deprecated#ohlcv-historical-v1-deprecated) - OHLCV Historical v1\n- [/v1/cryptocurrency/ohlcv/latest](/pro-api-reference/deprecated#ohlcv-latest-v1-deprecated) - OHLCV Latest v1\n- [/v1/cryptocurrency/price-performance-stats/latest](/pro-api-reference/deprecated#price-performance-stats-v1-deprecated) - Price Performance Stats v1\n- [/v1/cryptocurrency/quotes/historical](/pro-api-reference/deprecated#quotes-historical-v1-deprecated) - Quotes Historical v1\n- [/v1/cryptocurrency/quotes/latest](/pro-api-reference/deprecated#quotes-latest-v1-deprecated) - Quotes Latest v1\n- [/v1/partners/flipside-crypto/fcas/listings/latest](/pro-api-reference/deprecated#fcas-listings-latest-deprecated) - FCAS Listings Latest\n- [/v1/partners/flipside-crypto/fcas/quotes/latest](/pro-api-reference/deprecated#fcas-quotes-latest-deprecated) - FCAS Quotes Latest\n- [/v1/simple/price](/pro-api-reference/deprecated#simple-price-v1-deprecated) - Simple Price v1\n\n##### Legacy cryptocurrency quotes (V2)\n\nPrefer [/v3/cryptocurrency/quotes/latest](/pro-api-reference/cryptocurrency#quotes-latest) and [/v3/cryptocurrency/quotes/historical](/pro-api-reference/cryptocurrency#quotes-historical).\n\n- [/v2/cryptocurrency/quotes/latest](/pro-api-reference/deprecated#quotes-latest-v2) - Quotes Latest v2\n- [/v2/cryptocurrency/quotes/historical](/pro-api-reference/deprecated#quotes-historical-v2) - Quotes Historical v2\n\n##### Legacy DEX endpoints (V4)\n\nFor DEX data, use the [Token](/pro-api-reference/token), [Platform](/pro-api-reference/platform), and [OHLCV](/pro-api-reference/ohlcv) endpoints.\n\n- [/v4/dex/listings/info](/pro-api-reference/deprecated#dex-metadata) - DEX Metadata\n- [/v4/dex/listings/quotes](/pro-api-reference/deprecated#dex-listings-latest) - DEX Listings Latest\n- [/v4/dex/networks/list](/pro-api-reference/deprecated#coinmarketcap-id-map) - CoinMarketCap ID Map\n- [/v4/dex/pairs/ohlcv/historical](/pro-api-reference/deprecated#ohlcv-historical-2) - OHLCV Historical\n- [/v4/dex/pairs/ohlcv/latest](/pro-api-reference/deprecated#ohlcv-latest-2) - OHLCV Latest\n- [/v4/dex/pairs/trade/latest](/pro-api-reference/deprecated#trades-latest) - Trades Latest\n\n##### Legacy ERC-8056 UI multiplier endpoints\n\n- [/v1/cryptocurrency/multiplier](/pro-api-reference/deprecated#cryptocurrency-multiplier) - Cryptocurrency Multiplier\n- [/v2/dex/multiplier](/pro-api-reference/deprecated#get-token-multiplier) - Get Token Multiplier"
+      "description": "##### Endpoints replaced by newer versions and no longer actively supported. We strongly recommend migrating to the latest versions. This category includes 23 endpoints:\n\n##### Deprecated (V1) Endpoints\n\n- [/v1/cryptocurrency/info](/pro-api-reference/deprecated#metadata-v1-deprecated) - Metadata v1\n- [/v1/tools/price-conversion](/pro-api-reference/deprecated#price-conversion-v1-deprecated) - Price Conversion v1\n- [/v1/cryptocurrency/listings/latest](/pro-api-reference/deprecated#listings-latest-v1-deprecated) - Listings Latest v1\n- [/v1/cryptocurrency/market-pairs/latest](/pro-api-reference/deprecated#market-pairs-latest-v1-deprecated) - Market Pairs Latest v1\n- [/v1/cryptocurrency/ohlcv/historical](/pro-api-reference/deprecated#ohlcv-historical-v1-deprecated) - OHLCV Historical v1\n- [/v1/cryptocurrency/ohlcv/latest](/pro-api-reference/deprecated#ohlcv-latest-v1-deprecated) - OHLCV Latest v1\n- [/v1/cryptocurrency/price-performance-stats/latest](/pro-api-reference/deprecated#price-performance-stats-v1-deprecated) - Price Performance Stats v1\n- [/v1/cryptocurrency/quotes/historical](/pro-api-reference/deprecated#quotes-historical-v1-deprecated) - Quotes Historical v1\n- [/v1/cryptocurrency/quotes/latest](/pro-api-reference/deprecated#quotes-latest-v1-deprecated) - Quotes Latest v1\n- [/v1/partners/flipside-crypto/fcas/listings/latest](/pro-api-reference/deprecated#fcas-listings-latest-deprecated) - FCAS Listings Latest\n- [/v1/partners/flipside-crypto/fcas/quotes/latest](/pro-api-reference/deprecated#fcas-quotes-latest-deprecated) - FCAS Quotes Latest\n- [/v1/simple/price](/pro-api-reference/deprecated#simple-price-v1-deprecated) - Simple Price v1\n\n##### Legacy cryptocurrency quotes (V2)\n\nPrefer [/v3/cryptocurrency/quotes/latest](/pro-api-reference/cryptocurrency#quotes-latest) and [/v3/cryptocurrency/quotes/historical](/pro-api-reference/cryptocurrency#quotes-historical).\n\n- [/v2/cryptocurrency/quotes/latest](/pro-api-reference/deprecated#quotes-latest-v2) - Quotes Latest v2\n- [/v2/cryptocurrency/quotes/historical](/pro-api-reference/deprecated#quotes-historical-v2) - Quotes Historical v2\n\n##### Legacy cryptocurrency OHLCV (V2)\n\nPrefer [/v5/cryptocurrency/ohlcv/historical](/pro-api-reference/cryptocurrency#ohlcv-historical).\n\n- [/v2/cryptocurrency/ohlcv/historical](/pro-api-reference/deprecated#ohlcv-historical-v2-deprecated) - OHLCV Historical v2\n\n##### Legacy DEX endpoints (V4)\n\nFor DEX data, use the [Token](/pro-api-reference/token), [Platform](/pro-api-reference/platform), and [OHLCV](/pro-api-reference/ohlcv) endpoints.\n\n- [/v4/dex/listings/info](/pro-api-reference/deprecated#dex-metadata) - DEX Metadata\n- [/v4/dex/listings/quotes](/pro-api-reference/deprecated#dex-listings-latest) - DEX Listings Latest\n- [/v4/dex/networks/list](/pro-api-reference/deprecated#coinmarketcap-id-map) - CoinMarketCap ID Map\n- [/v4/dex/pairs/ohlcv/historical](/pro-api-reference/deprecated#ohlcv-historical-2) - OHLCV Historical\n- [/v4/dex/pairs/ohlcv/latest](/pro-api-reference/deprecated#ohlcv-latest-2) - OHLCV Latest\n- [/v4/dex/pairs/trade/latest](/pro-api-reference/deprecated#trades-latest) - Trades Latest\n\n##### Legacy ERC-8056 UI multiplier endpoints\n\n- [/v1/cryptocurrency/multiplier](/pro-api-reference/deprecated#cryptocurrency-multiplier) - Cryptocurrency Multiplier\n- [/v2/dex/multiplier](/pro-api-reference/deprecated#get-token-multiplier) - Get Token Multiplier"
     }
   ],
   "paths": {
@@ -1562,147 +1562,97 @@
         }
       }
     },
-    "/v2/cryptocurrency/ohlcv/historical": {
+    "/v5/cryptocurrency/ohlcv/historical": {
       "get": {
         "summary": "OHLCV Historical",
-        "operationId": "getV2CryptocurrencyOhlcvHistorical",
-        "description": "Returns historical OHLCV (Open, High, Low, Close, Volume) data along with market cap for any cryptocurrency using time interval parameters. Currently daily and hourly OHLCV periods are supported. Volume is not currently supported for hourly OHLCV intervals before 2020-09-22.\n\n**Please note**: This documentation relates to our updated V2 endpoint, which may be incompatible with our V1 versions. Documentation for deprecated endpoints can be found [the deprecated section](/pro-api-reference/deprecated).\n\n  \n**Technical Notes**\n- Only the date portion of the timestamp is used for daily OHLCV so it's recommended to send an ISO date format like \"2018-09-19\" without time for this \"time_period\". \n- One OHLCV quote will be returned for every \"time_period\" between your \"time_start\" (exclusive) and \"time_end\" (inclusive).  \n- If a \"time_start\" is not supplied, the \"time_period\" will be calculated in reverse from \"time_end\" using the \"count\" parameter which defaults to 10 results.  \n- If \"time_end\" is not supplied, it defaults to the current time.   \n- If you don't need every \"time_period\" between your dates you may adjust the frequency that \"time_period\" is sampled using the \"interval\" parameter. For example with \"time_period\" set to \"daily\" you may set \"interval\" to \"2d\" to get the daily OHLCV for every other day. You could set \"interval\" to \"monthly\" to get the first daily OHLCV for each month, or set it to \"yearly\" to get the daily OHLCV value against the same date every year.  \n\n**Implementation Tips**\n- If querying for a specific OHLCV date your \"time_start\" should specify a timestamp of 1 interval prior as \"time_start\" is an exclusive time parameter (as opposed to \"time_end\" which is inclusive to the search). This means that when you pass a \"time_start\" results will be returned for the *next* complete \"time_period\". For example, if you are querying for a daily OHLCV datapoint for 2018-11-30 your \"time_start\" should be \"2018-11-29\".   \n- If only specifying a \"count\" parameter to return latest OHLCV periods, your \"count\" should be 1 number higher than the number of results you expect to receive. \"Count\" defines the number of \"time_period\" intervals queried, *not* the number of results to return, and this includes the currently active time period which is incomplete when working backwards from current time. For example, if you want the last daily OHLCV value available simply pass \"count=2\" to skip the incomplete active time period.\n- This endpoint supports requesting multiple cryptocurrencies in the same call. Please note the API response will be wrapped in an additional object in this case.  \n  \n**Interval Options**  \n  \nThere are 2 types of time interval formats that may be used for \"time_period\" and \"interval\" parameters. For \"time_period\" these return aggregate OHLCV data from the beginning to end of each interval period. Apply these time intervals to \"interval\" to adjust how frequently \"time_period\" is sampled.  \n  \nThe first are calendar year and time constants in UTC time:  \n**\"hourly\"** - Hour intervals in UTC.  \n**\"daily\"** - Calendar day intervals for each UTC day.  \n**\"weekly\"** - Calendar week intervals for each calendar week.  \n**\"monthly\"** - Calendar month intervals for each calendar month.    \n**\"yearly\"** - Calendar year intervals for each calendar year.  \n  \nThe second are relative time intervals.  \n**\"h\"**: Get the first quote available every \"h\" hours (3600 second intervals). Supported hour intervals are: \"1h\", \"2h\", \"3h\", \"4h\", \"6h\", \"12h\".  \n**\"d\"**: Time periods that repeat every \"d\" days (86400 second intervals). Supported day intervals are: \"1d\", \"2d\", \"3d\", \"7d\", \"14d\", \"15d\", \"30d\", \"60d\", \"90d\", \"365d\".  \n  \nPlease note that \"time_period\" currently supports the \"daily\" and \"hourly\" options. \"interval\" supports all interval options.  \n  \n**This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n- ~~Basic~~\n- ~~Builder~~\n- Startup (intraday: 1 month, daily: from 2010)\n- Growth (intraday: 3 months, daily: from 2010)\n- Professional (intraday: 12 months, daily: from 2010)\n- Enterprise (intraday: from 2010, daily: from 2010)\n\n**Note:** Intraday = `5m-12h` intervals, Daily = `1d-1y` intervals\n\n**Cache / Update frequency:** Latest Daily OHLCV record is available ~5 to ~10 minutes after each midnight UTC. The latest hourly OHLCV record is available 5 minutes after each UTC hour.  \n**Plan credit use:** 1 call credit per 100 OHLCV data points returned (rounded up) and 1 call credit per `convert` option beyond the first.  \n**CMC equivalent pages:** Our historical cryptocurrency data pages like [coinmarketcap.com/currencies/bitcoin/historical-data/](https://coinmarketcap.com/currencies/bitcoin/historical-data/).",
+        "operationId": "getV5CryptocurrencyOhlcvHistorical",
+        "description": "Returns historical OHLCV (open, high, low, close, volume) candles for one cryptocurrency, together with the market cap and the times of the high and the low in each candle. Each candle is a compact row of 10 values instead of a nested object, so long histories stay small and load straight into charting and analysis tools.\n\nCompared with the deprecated [/v2/cryptocurrency/ohlcv/historical](/pro-api-reference/deprecated#ohlcv-historical-v2-deprecated), this endpoint:\n\n- returns one cryptocurrency per request, by `id` or `slug`, in one currency set with `convert_id`.\n- uses the interval names `15m`, `1h`, `4h`, `1d`, `1w` and `1M`. `1w` is a calendar week starting on Monday and `1M` is a calendar month.\n- uses `time_start` and `count` when you send `time_start`, `time_end` and `count` together, instead of working out `count` from the time range.\n- rejects parameters it does not support, such as `symbol`, `convert`, `time_period` and `skip_invalid`, with a `400` error instead of ignoring them.\n\n**Candle rows**\n\n`data` is an array of candles, oldest first. Each candle is an array of 10 values in this fixed order, so read the values by position:\n\n| Index | Field | Type | Description |\n| --- | --- | --- | --- |\n| 0 | `openPrice` | number | Open price: the first price in the period. |\n| 1 | `highPrice` | number | High price: the highest price in the period. |\n| 2 | `lowPrice` | number | Low price: the lowest price in the period. |\n| 3 | `closePrice` | number | Close price: the last price in the period. |\n| 4 | `volume` | number | Trading volume in the period. |\n| 5 | `marketcap` | number | Market cap at the close of the period. |\n| 6 | `openTime` | string | Start of the period (ISO 8601, UTC). |\n| 7 | `highTime` | string | Time of the high price (ISO 8601, UTC). |\n| 8 | `lowTime` | string | Time of the low price (ISO 8601, UTC). |\n| 9 | `closeTime` | string | End of the period (ISO 8601, UTC), for example `2025-01-02T23:59:59.999Z`. |\n\nPrices, volume and market cap are in the currency set by `convert_id`. A value that is not available is returned as `null` in its position. Periods with no data, future periods and the period that is still open are left out, so a request with no data returns an empty `data` array.\n\n**Time window**\n\n`time_start` and `time_end` are inclusive, and both are rounded down to the start of their interval period in UTC. The window depends on which parameters you send:\n\n- `time_start` and `time_end`: every period in the range, up to 10000 periods.\n- `time_start` and `count`: `count` periods starting at `time_start`.\n- `time_end` and `count`: `count` periods ending with the period that contains `time_end`.\n- `time_start`, `time_end` and `count`: `count` periods starting at `time_start`. `time_end` must still be a valid timestamp, but it does not change the window.\n- Neither `time_start` nor `time_end`: the `count` most recent completed periods.\n\n`count` defaults to 10 when you do not send both `time_start` and `time_end`.\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - ~~Basic~~\n  - ~~Builder~~\n  - Startup (intraday: 1 month, daily: from 2010)\n  - Growth (intraday: 3 months, daily: from 2010)\n  - Professional (intraday: 12 months, daily: from 2010)\n  - Enterprise (intraday: from 2010, daily: from 2010)\n\n**Note:** Intraday = `15m`, `1h` and `4h` intervals, Daily = `1d`, `1w` and `1M` intervals\n\n**Cache / Update frequency:** Each candle is returned once its period has closed.  \n**Plan credit use:** 1 call credit per 100 candles returned (rounded up). A request that returns no candles costs 0 credits.  \n**CMC equivalent pages:** Our historical cryptocurrency data pages like [coinmarketcap.com/currencies/bitcoin/historical-data/](https://coinmarketcap.com/currencies/bitcoin/historical-data/).",
         "parameters": [
           {
-            "description": "One or more comma-separated CoinMarketCap cryptocurrency IDs. Example: \"1,1027\"",
             "name": "id",
             "in": "query",
+            "description": "One CoinMarketCap cryptocurrency ID. Example: `1`. Send either `id` or `slug`.",
             "schema": {
               "type": "string",
-              "pattern": "^\\d+(?:,\\d+)*$"
+              "pattern": "^\\d+$",
+              "example": "1"
             }
           },
           {
-            "description": "Alternatively pass a comma-separated list of cryptocurrency slugs. Example: \"bitcoin,ethereum\"",
-            "x-convert": {
-              "lowercase": true
-            },
             "name": "slug",
             "in": "query",
+            "description": "Alternatively, one cryptocurrency slug. Example: `bitcoin`. Send either `id` or `slug`.",
             "schema": {
               "type": "string",
-              "pattern": "^[0-9a-z-]+(?:,[0-9a-z-]+)*$"
+              "pattern": "^[0-9a-z-]+$"
             }
           },
           {
-            "description": "Alternatively pass one or more comma-separated cryptocurrency symbols. Example: \"BTC,ETH\". At least one \"id\" *or* \"slug\" *or* \"symbol\" is required for this request.",
-            "name": "symbol",
+            "name": "interval",
             "in": "query",
+            "required": true,
+            "description": "Candle period. `15m`, `1h` and `4h` start on UTC quarter-hours, hours and 4-hour blocks, `1d` on UTC days, `1w` on Mondays at 00:00 UTC, and `1M` on the first day of each month at 00:00 UTC. Values are case-sensitive: `1M` is a month, and `1m` is not accepted.",
             "schema": {
               "type": "string",
-              "pattern": "^[0-9A-Za-z$@\\-,]+(?:,[0-9A-Za-z$@\\-]+)*$"
+              "enum": [
+                "15m",
+                "1h",
+                "4h",
+                "1d",
+                "1w",
+                "1M"
+              ],
+              "example": "1d"
             }
           },
           {
-            "description": "Time period to return OHLCV data for. The default is \"daily\". If hourly, the open will be 01:00 and the close will be 01:59. If daily, the open will be 00:00:00 for the day and close will be 23:59:99 for the same day. See the main endpoint description for details.",
-            "name": "time_period",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "enum": ["daily", "hourly"],
-              "default": "daily"
-            }
-          },
-          {
-            "description": "Timestamp (Unix or ISO 8601) to start returning OHLCV time periods for. Only the date portion of the timestamp is used for daily OHLCV so it's recommended to send an ISO date format like \"2018-09-19\" without time.",
             "name": "time_start",
             "in": "query",
+            "description": "Start of the window, inclusive, as a Unix timestamp or ISO 8601. Rounded down to the start of its interval period. See the time window rules above.",
             "schema": {
               "type": "string"
             }
           },
           {
-            "description": "Timestamp (Unix or ISO 8601) to stop returning OHLCV time periods for (inclusive). Optional, if not passed we'll default to the current time. Only the date portion of the timestamp is used for daily OHLCV so it's recommended to send an ISO date format like \"2018-09-19\" without time.",
             "name": "time_end",
             "in": "query",
+            "description": "End of the window, inclusive, as a Unix timestamp or ISO 8601. When you also send `time_start` and `count`, it does not change the window.",
             "schema": {
               "type": "string"
             }
           },
           {
-            "description": "Optionally limit the number of time periods to return results for. The default is 10 items. The current query limit is 10000 items.",
             "name": "count",
             "in": "query",
+            "description": "Number of candle periods to return, from 1 to 10000. Defaults to 10 unless you send both `time_start` and `time_end`.",
             "schema": {
-              "type": "number",
+              "type": "integer",
               "minimum": 1,
               "maximum": 10000,
               "default": 10
             }
           },
           {
-            "description": "Optionally adjust the interval that \"time_period\" is sampled. For example with interval=monthly&time_period=daily you will see a daily OHLCV record for January, February, March and so on. See main endpoint description for available options.",
-            "name": "interval",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "enum": [
-                "hourly",
-                "daily",
-                "weekly",
-                "monthly",
-                "yearly",
-                "1h",
-                "2h",
-                "3h",
-                "4h",
-                "6h",
-                "12h",
-                "1d",
-                "2d",
-                "3d",
-                "7d",
-                "14d",
-                "15d",
-                "30d",
-                "60d",
-                "90d",
-                "365d"
-              ],
-              "default": "daily"
-            }
-          },
-          {
-            "description": "By default market quotes are returned in USD. Optionally calculate market quotes in up to 3 fiat currencies or cryptocurrencies.",
-            "name": "convert",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "pattern": "^[0-9A-Za-z$@\\-,]+(?:,[0-9A-Za-z$@\\-]+)*$"
-            }
-          },
-          {
-            "description": "Optionally calculate market quotes by CoinMarketCap ID instead of symbol. This option is identical to `convert` outside of ID format. Ex: convert_id=1,2781 would replace convert=BTC,USD in your query. This parameter cannot be used when `convert` is used.",
             "name": "convert_id",
             "in": "query",
+            "description": "One CoinMarketCap currency ID to return prices, volume and market cap in. Example: `2781` (USD). Defaults to USD. To get more currencies, make one request per currency.",
             "schema": {
               "type": "string",
-              "pattern": "^\\d+(?:,\\d+)*$"
-            }
-          },
-          {
-            "description": "Pass `true` to relax request validation rules. When requesting records on multiple cryptocurrencies an error is returned if any invalid cryptocurrencies are requested or a cryptocurrency does not have matching records in the requested timeframe. If set to true, invalid lookups will be skipped allowing valid cryptocurrencies to still be returned.",
-            "name": "skip_invalid",
-            "in": "query",
-            "schema": {
-              "type": "boolean",
-              "default": true
+              "pattern": "^\\d+$",
+              "default": "2781"
             }
           }
         ],
-        "tags": ["Cryptocurrency"],
+        "tags": [
+          "Cryptocurrency"
+        ],
         "responses": {
           "200": {
             "description": "Successful",
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Cryptocurrency_OHLCV_Historical_-_Response_Model"
+                  "$ref": "#/components/schemas/Cryptocurrency_OHLCV_Historical_v5_-_Response_Model"
                 }
               }
             }
@@ -1713,6 +1663,17 @@
               "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/HTTP_Status_400_Error_Object"
+                },
+                "example": {
+                  "status": {
+                    "timestamp": "2026-11-11T09:26:34.327Z",
+                    "error_code": "4001",
+                    "error_message": "Invalid parameter.",
+                    "elapsed": 1,
+                    "credit_count": 0,
+                    "category": "VALIDATION",
+                    "error_detail": "convert is not supported by this endpoint."
+                  }
                 }
               }
             }
@@ -6451,6 +6412,204 @@
         "summary": "OHLCV Historical v1 (deprecated)",
         "operationId": "getV1CryptocurrencyOhlcvHistorical",
         "description": "Returns historical OHLCV (Open, High, Low, Close, Volume) data along with market cap for any cryptocurrency using time interval parameters. Currently daily and hourly OHLCV periods are supported. Volume is not currently supported for hourly OHLCV intervals before 2020-09-22.\n\n  \n**Technical Notes**\n- Only the date portion of the timestamp is used for daily OHLCV so it's recommended to send an ISO date format like \"2018-09-19\" without time for this \"time_period\". \n- One OHLCV quote will be returned for every \"time_period\" between your \"time_start\" (exclusive) and \"time_end\" (inclusive).  \n- If a \"time_start\" is not supplied, the \"time_period\" will be calculated in reverse from \"time_end\" using the \"count\" parameter which defaults to 10 results.  \n- If \"time_end\" is not supplied, it defaults to the current time.   \n- If you don't need every \"time_period\" between your dates you may adjust the frequency that \"time_period\" is sampled using the \"interval\" parameter. For example with \"time_period\" set to \"daily\" you may set \"interval\" to \"2d\" to get the daily OHLCV for every other day. You could set \"interval\" to \"monthly\" to get the first daily OHLCV for each month, or set it to \"yearly\" to get the daily OHLCV value against the same date every year.  \n\n**Implementation Tips**\n- If querying for a specific OHLCV date your \"time_start\" should specify a timestamp of 1 interval prior as \"time_start\" is an exclusive time parameter (as opposed to \"time_end\" which is inclusive to the search). This means that when you pass a \"time_start\" results will be returned for the *next* complete \"time_period\". For example, if you are querying for a daily OHLCV datapoint for 2018-11-30 your \"time_start\" should be \"2018-11-29\".   \n- If only specifying a \"count\" parameter to return latest OHLCV periods, your \"count\" should be 1 number higher than the number of results you expect to receive. \"Count\" defines the number of \"time_period\" intervals queried, *not* the number of results to return, and this includes the currently active time period which is incomplete when working backwards from current time. For example, if you want the last daily OHLCV value available simply pass \"count=2\" to skip the incomplete active time period.\n- This endpoint supports requesting multiple cryptocurrencies in the same call. Please note the API response will be wrapped in an additional object in this case.  \n  \n**Interval Options**  \n  \nThere are 2 types of time interval formats that may be used for \"time_period\" and \"interval\" parameters. For \"time_period\" these return aggregate OHLCV data from the beginning to end of each interval period. Apply these time intervals to \"interval\" to adjust how frequently \"time_period\" is sampled.  \n  \nThe first are calendar year and time constants in UTC time:  \n**\"hourly\"** - Hour intervals in UTC.  \n**\"daily\"** - Calendar day intervals for each UTC day.  \n**\"weekly\"** - Calendar week intervals for each calendar week.  \n**\"monthly\"** - Calendar month intervals for each calendar month.    \n**\"yearly\"** - Calendar year intervals for each calendar year.  \n  \nThe second are relative time intervals.  \n**\"h\"**: Get the first quote available every \"h\" hours (3600 second intervals). Supported hour intervals are: \"1h\", \"2h\", \"3h\", \"4h\", \"6h\", \"12h\".  \n**\"d\"**: Time periods that repeat every \"d\" days (86400 second intervals). Supported day intervals are: \"1d\", \"2d\", \"3d\", \"7d\", \"14d\", \"15d\", \"30d\", \"60d\", \"90d\", \"365d\".  \n  \nPlease note that \"time_period\" currently supports the \"daily\" and \"hourly\" options. \"interval\" supports all interval options.  \n  \n**This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**  \n- ~~Basic~~\n- ~~Builder~~\n- Startup (1 month)\n- Growth (3 months)\n- Professional (12 months)\n- Enterprise (Up to 6 years)\n\n**Cache / Update frequency:** Latest Daily OHLCV record is available ~5 to ~10 minutes after each midnight UTC. The latest hourly OHLCV record is available 5 minutes after each UTC hour.  \n**Plan credit use:** 1 call credit per 100 OHLCV data points returned (rounded up) and 1 call credit per `convert` option beyond the first.  \n**CMC equivalent pages:** Our historical cryptocurrency data pages like [coinmarketcap.com/currencies/bitcoin/historical-data/](https://coinmarketcap.com/currencies/bitcoin/historical-data/).",
+        "parameters": [
+          {
+            "description": "One or more comma-separated CoinMarketCap cryptocurrency IDs. Example: \"1,1027\"",
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "pattern": "^\\d+(?:,\\d+)*$"
+            }
+          },
+          {
+            "description": "Alternatively pass a comma-separated list of cryptocurrency slugs. Example: \"bitcoin,ethereum\"",
+            "x-convert": {
+              "lowercase": true
+            },
+            "name": "slug",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "pattern": "^[0-9a-z-]+(?:,[0-9a-z-]+)*$"
+            }
+          },
+          {
+            "description": "Alternatively pass one or more comma-separated cryptocurrency symbols. Example: \"BTC,ETH\". At least one \"id\" *or* \"slug\" *or* \"symbol\" is required for this request.",
+            "name": "symbol",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "pattern": "^[0-9A-Za-z$@\\-,]+(?:,[0-9A-Za-z$@\\-]+)*$"
+            }
+          },
+          {
+            "description": "Time period to return OHLCV data for. The default is \"daily\". If hourly, the open will be 01:00 and the close will be 01:59. If daily, the open will be 00:00:00 for the day and close will be 23:59:99 for the same day. See the main endpoint description for details.",
+            "name": "time_period",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": ["daily", "hourly"],
+              "default": "daily"
+            }
+          },
+          {
+            "description": "Timestamp (Unix or ISO 8601) to start returning OHLCV time periods for. Only the date portion of the timestamp is used for daily OHLCV so it's recommended to send an ISO date format like \"2018-09-19\" without time.",
+            "name": "time_start",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "description": "Timestamp (Unix or ISO 8601) to stop returning OHLCV time periods for (inclusive). Optional, if not passed we'll default to the current time. Only the date portion of the timestamp is used for daily OHLCV so it's recommended to send an ISO date format like \"2018-09-19\" without time.",
+            "name": "time_end",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "description": "Optionally limit the number of time periods to return results for. The default is 10 items. The current query limit is 10000 items.",
+            "name": "count",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "minimum": 1,
+              "maximum": 10000,
+              "default": 10
+            }
+          },
+          {
+            "description": "Optionally adjust the interval that \"time_period\" is sampled. For example with interval=monthly&time_period=daily you will see a daily OHLCV record for January, February, March and so on. See main endpoint description for available options.",
+            "name": "interval",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "hourly",
+                "daily",
+                "weekly",
+                "monthly",
+                "yearly",
+                "1h",
+                "2h",
+                "3h",
+                "4h",
+                "6h",
+                "12h",
+                "1d",
+                "2d",
+                "3d",
+                "7d",
+                "14d",
+                "15d",
+                "30d",
+                "60d",
+                "90d",
+                "365d"
+              ],
+              "default": "daily"
+            }
+          },
+          {
+            "description": "By default market quotes are returned in USD. Optionally calculate market quotes in up to 3 fiat currencies or cryptocurrencies.",
+            "name": "convert",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "pattern": "^[0-9A-Za-z$@\\-,]+(?:,[0-9A-Za-z$@\\-]+)*$"
+            }
+          },
+          {
+            "description": "Optionally calculate market quotes by CoinMarketCap ID instead of symbol. This option is identical to `convert` outside of ID format. Ex: convert_id=1,2781 would replace convert=BTC,USD in your query. This parameter cannot be used when `convert` is used.",
+            "name": "convert_id",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "pattern": "^\\d+(?:,\\d+)*$"
+            }
+          },
+          {
+            "description": "Pass `true` to relax request validation rules. When requesting records on multiple cryptocurrencies an error is returned if any invalid cryptocurrencies are requested or a cryptocurrency does not have matching records in the requested timeframe. If set to true, invalid lookups will be skipped allowing valid cryptocurrencies to still be returned.",
+            "name": "skip_invalid",
+            "in": "query",
+            "schema": {
+              "type": "boolean",
+              "default": true
+            }
+          }
+        ],
+        "tags": ["Deprecated"],
+        "responses": {
+          "200": {
+            "description": "Successful",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Cryptocurrency_OHLCV_Historical_-_Response_Model"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTP_Status_400_Error_Object"
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTP_Status_401_Error_Object"
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTP_Status_403_Error_Object"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Too Many Requests",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTP_Status_429_Error_Object"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTP_Status_500_Error_Object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v2/cryptocurrency/ohlcv/historical": {
+      "get": {
+        "summary": "OHLCV Historical v2 (deprecated)",
+        "operationId": "getV2CryptocurrencyOhlcvHistorical",
+        "description": "**Deprecated.** Use [/v5/cryptocurrency/ohlcv/historical](/pro-api-reference/cryptocurrency#ohlcv-historical) instead. It returns the same candles as compact rows, one cryptocurrency per request, with calendar-week (`1w`) and calendar-month (`1M`) intervals and a simpler time window.\n\nReturns historical OHLCV (Open, High, Low, Close, Volume) data along with market cap for any cryptocurrency using time interval parameters. Currently daily and hourly OHLCV periods are supported. Volume is not currently supported for hourly OHLCV intervals before 2020-09-22.\n\n**Please note**: This documentation relates to our updated V2 endpoint, which may be incompatible with our earlier versions. Documentation for deprecated endpoints can be found [the deprecated section](/pro-api-reference/deprecated).\n\n  \n**Technical Notes**\n- Only the date portion of the timestamp is used for daily OHLCV so it's recommended to send an ISO date format like \"2018-09-19\" without time for this \"time_period\". \n- One OHLCV quote will be returned for every \"time_period\" between your \"time_start\" (exclusive) and \"time_end\" (inclusive).  \n- If a \"time_start\" is not supplied, the \"time_period\" will be calculated in reverse from \"time_end\" using the \"count\" parameter which defaults to 10 results.  \n- If \"time_end\" is not supplied, it defaults to the current time.   \n- If you don't need every \"time_period\" between your dates you may adjust the frequency that \"time_period\" is sampled using the \"interval\" parameter. For example with \"time_period\" set to \"daily\" you may set \"interval\" to \"2d\" to get the daily OHLCV for every other day. You could set \"interval\" to \"monthly\" to get the first daily OHLCV for each month, or set it to \"yearly\" to get the daily OHLCV value against the same date every year.  \n\n**Implementation Tips**\n- If querying for a specific OHLCV date your \"time_start\" should specify a timestamp of 1 interval prior as \"time_start\" is an exclusive time parameter (as opposed to \"time_end\" which is inclusive to the search). This means that when you pass a \"time_start\" results will be returned for the *next* complete \"time_period\". For example, if you are querying for a daily OHLCV datapoint for 2018-11-30 your \"time_start\" should be \"2018-11-29\".   \n- If only specifying a \"count\" parameter to return latest OHLCV periods, your \"count\" should be 1 number higher than the number of results you expect to receive. \"Count\" defines the number of \"time_period\" intervals queried, *not* the number of results to return, and this includes the currently active time period which is incomplete when working backwards from current time. For example, if you want the last daily OHLCV value available simply pass \"count=2\" to skip the incomplete active time period.\n- This endpoint supports requesting multiple cryptocurrencies in the same call. Please note the API response will be wrapped in an additional object in this case.  \n  \n**Interval Options**  \n  \nThere are 2 types of time interval formats that may be used for \"time_period\" and \"interval\" parameters. For \"time_period\" these return aggregate OHLCV data from the beginning to end of each interval period. Apply these time intervals to \"interval\" to adjust how frequently \"time_period\" is sampled.  \n  \nThe first are calendar year and time constants in UTC time:  \n**\"hourly\"** - Hour intervals in UTC.  \n**\"daily\"** - Calendar day intervals for each UTC day.  \n**\"weekly\"** - Calendar week intervals for each calendar week.  \n**\"monthly\"** - Calendar month intervals for each calendar month.    \n**\"yearly\"** - Calendar year intervals for each calendar year.  \n  \nThe second are relative time intervals.  \n**\"h\"**: Get the first quote available every \"h\" hours (3600 second intervals). Supported hour intervals are: \"1h\", \"2h\", \"3h\", \"4h\", \"6h\", \"12h\".  \n**\"d\"**: Time periods that repeat every \"d\" days (86400 second intervals). Supported day intervals are: \"1d\", \"2d\", \"3d\", \"7d\", \"14d\", \"15d\", \"30d\", \"60d\", \"90d\", \"365d\".  \n  \nPlease note that \"time_period\" currently supports the \"daily\" and \"hourly\" options. \"interval\" supports all interval options.  \n  \n**This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n- ~~Basic~~\n- ~~Builder~~\n- Startup (intraday: 1 month, daily: from 2010)\n- Growth (intraday: 3 months, daily: from 2010)\n- Professional (intraday: 12 months, daily: from 2010)\n- Enterprise (intraday: from 2010, daily: from 2010)\n\n**Note:** Intraday = `5m-12h` intervals, Daily = `1d-1y` intervals\n\n**Cache / Update frequency:** Latest Daily OHLCV record is available ~5 to ~10 minutes after each midnight UTC. The latest hourly OHLCV record is available 5 minutes after each UTC hour.  \n**Plan credit use:** 1 call credit per 100 OHLCV data points returned (rounded up) and 1 call credit per `convert` option beyond the first.  \n**CMC equivalent pages:** Our historical cryptocurrency data pages like [coinmarketcap.com/currencies/bitcoin/historical-data/](https://coinmarketcap.com/currencies/bitcoin/historical-data/).",
         "parameters": [
           {
             "description": "One or more comma-separated CoinMarketCap cryptocurrency IDs. Example: \"1,1027\"",
@@ -12804,6 +12963,165 @@
         }
       }
     },
+    "/v5/real-world-assets/quotes/historical": {
+      "get": {
+        "summary": "Quotes Historical",
+        "operationId": "getV5RealWorldAssetsQuotesHistorical",
+        "description": "Returns a time series of tokenized aggregate values for one or more Real-World Asset (RWA) assets: the average tokenized price, tokenized market cap and 24h tokenized volume, with one data point per interval period. For the current values, use [/v5/real-world-assets/quotes/latest](/pro-api-reference/real-world-assets#quotes-latest-5). For the history of one underlying token, call [/v3/cryptocurrency/quotes/historical](/pro-api-reference/cryptocurrency#quotes-historical) with the token's `crypto_id`.\n\nAt least one of `rwa_id`, `rwa_slug`, or `symbol` is required, and only one identifier type may be used per request. Assets are returned in the order requested. Each asset's `quotes` array is flat: one entry per data point per convert currency, tagged with `convert_id` and `convert_symbol`, oldest first and grouped by currency in the order requested. An asset with `has_tokens: false` returns an empty `quotes` array.\n\n**Time window**\n\n`time_start` and `time_end` are inclusive, and both are rounded down to the start of their interval period. The window depends on which parameters you send:\n\n- Neither `time_start` nor `time_end`: the `count` most recent periods.\n- `time_end` only: `count` periods ending with the period that contains `time_end`.\n- `time_start` only: `count` periods starting at `time_start`.\n- `time_start` and `time_end`: every period in the range. If you also send `count`, the first `count` periods from `time_start`.\n\n`count` defaults to 10 unless you send both `time_start` and `time_end`. It counts interval periods, not data points: a period with no data is skipped, so fewer data points can come back.\n\n**Data points**\n\nEach data point is the first value recorded in its period, stamped at the start of the period. Daily and longer periods start at 00:00 UTC for commodities, and at midnight New York time (04:00 or 05:00 UTC) for stocks and ETFs. `weekly` periods start on Monday and `monthly` periods on the 1st.\n\n**Limits**\n\n- History starts no earlier than January 1, 2020. A range that starts earlier returns data from the first available data point, with no notice.\n- One request returns at most 10,000 data points, counted as the number of assets times the number of periods in the range. A larger request returns `400`.\n- `hourly` and `1h` to `12h` reach back at most 100 days, and `5m` to `45m` at most 10 days. Lower plans reach back less, as listed below. A request beyond your plan's window returns `403` with error code `1014`.\n- Up to 3 `convert` or `convert_id` values per request.\n\nHow far back you can go depends on your plan and the interval.\n\n  **This endpoint is available on the following [API plans](https://coinmarketcap.com/api/pricing/):**\n  - Basic (hourly: 1 month, daily: 1 year)\n  - Builder (hourly: 1 month, daily: 3 years)\n  - Startup (hourly: 1 month, daily: from 2020)\n  - Growth (hourly: 3 months, daily: from 2020)\n  - Professional (hourly: 100 days, daily: from 2020)\n  - Enterprise (hourly: 100 days, daily: from 2020, `5m` to `45m`: 10 days)\n\n**Note:** Hourly = `hourly` and `1h` to `12h` intervals, Daily = `daily`, `weekly`, `monthly`, `yearly` and `1d` to `365d` intervals. The `5m` to `45m` intervals are available on Enterprise only.\n\n**Cache / Update frequency:** Every 5 minutes.  \n**Plan credit use:** 1 call credit per 100 data points returned (rounded up), counted across all requested assets, plus 1 credit per `convert`/`convert_id` beyond the first. A request that returns no data points costs 0 credits.  \n**CMC equivalent pages:** The price chart on RWA asset pages like [coinmarketcap.com/real-world-assets/nvidia/](https://coinmarketcap.com/real-world-assets/nvidia/).",
+        "parameters": [
+          {
+            "description": "One or more comma-separated RWA asset IDs. Example: `1,2`. Only one identifier type (`rwa_id`, `rwa_slug`, or `symbol`) may be used per request.",
+            "name": "rwa_id",
+            "in": "query",
+            "schema": { "type": "string", "pattern": "^\\d+(?:,\\d+)*$", "example": "1,2" }
+          },
+          {
+            "description": "Alternatively pass RWA asset slugs. Example: `nvidia,gold`.",
+            "name": "rwa_slug",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "pattern": "^[0-9a-z-]+(?:,[0-9a-z-]+)*$",
+              "example": "nvidia,gold"
+            }
+          },
+          {
+            "description": "Alternatively pass RWA asset symbols / tickers. Example: `NVDA,GOLD`.",
+            "name": "symbol",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "pattern": "^[0-9A-Za-z$@\\-,]+(?:,[0-9A-Za-z$@\\-]+)*$",
+              "example": "NVDA,GOLD"
+            }
+          },
+          {
+            "description": "Start of the window, inclusive, as a Unix timestamp or ISO 8601. Rounded down to the start of its interval period. See the time window rules above.",
+            "name": "time_start",
+            "in": "query",
+            "schema": { "type": "string", "example": "2026-11-01T00:00:00Z" }
+          },
+          {
+            "description": "End of the window, inclusive, as a Unix timestamp or ISO 8601. Rounded down to the start of its interval period. See the time window rules above.",
+            "name": "time_end",
+            "in": "query",
+            "schema": { "type": "string", "example": "2026-11-10T00:00:00Z" }
+          },
+          {
+            "description": "Number of interval periods to return, from 1 to 10000. Defaults to 10 unless you send both `time_start` and `time_end`.",
+            "name": "count",
+            "in": "query",
+            "schema": { "type": "integer", "minimum": 1, "maximum": 10000 }
+          },
+          {
+            "description": "Interval between data points. Calendar intervals (`hourly`, `daily`, `weekly`, `monthly`, `yearly`) return the first value in each calendar period. Relative intervals return the first value every N minutes (`5m` to `45m`), hours (`1h` to `12h`) or days (`1d` to `365d`). Sub-daily intervals have lookback limits, listed above.",
+            "name": "interval",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "enum": [
+                "hourly",
+                "daily",
+                "weekly",
+                "monthly",
+                "yearly",
+                "5m",
+                "10m",
+                "15m",
+                "30m",
+                "45m",
+                "1h",
+                "2h",
+                "3h",
+                "4h",
+                "6h",
+                "12h",
+                "1d",
+                "2d",
+                "3d",
+                "7d",
+                "14d",
+                "15d",
+                "30d",
+                "60d",
+                "90d",
+                "365d"
+              ],
+              "default": "daily"
+            }
+          },
+          {
+            "description": "Calculate the tokenized values in up to 3 fiat or cryptocurrency currencies, as a comma-separated list of symbols. Each currency beyond the first costs 1 more call credit and returns its own set of `quotes` entries, tagged with `convert_id` and `convert_symbol`. This parameter cannot be used when `convert_id` is used.",
+            "name": "convert",
+            "in": "query",
+            "schema": { "type": "string", "example": "USD" }
+          },
+          {
+            "description": "Calculate the tokenized values by CoinMarketCap ID instead of symbol, up to 3 IDs. This option is identical to `convert` outside of ID format. Ex: convert_id=2781 would replace convert=USD in your query. This parameter cannot be used when `convert` is used.",
+            "name": "convert_id",
+            "in": "query",
+            "schema": { "type": "string", "pattern": "^\\d+(?:,\\d+)*$", "example": "2781" }
+          },
+          {
+            "description": "Pass `true` to relax request validation rules. When requesting records on multiple RWA assets an error is returned if no match is found for one or more requested assets. If set to `true`, invalid lookups will be skipped allowing valid assets to still be returned. Skipped identifiers are listed in `status.notice`. If no identifier is valid, the request fails with `400`.",
+            "name": "skip_invalid",
+            "in": "query",
+            "schema": { "type": "string" }
+          }
+        ],
+        "tags": ["Real World Assets"],
+        "responses": {
+          "200": {
+            "description": "Successful",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/RWA_Quotes_Historical_-_Response_Model" }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/HTTP_Status_400_Error_Object" }
+              }
+            }
+          },
+          "401": {
+            "description": "Unauthorized",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/HTTP_Status_401_Error_Object" }
+              }
+            }
+          },
+          "403": {
+            "description": "Forbidden",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/HTTP_Status_403_Error_Object" }
+              }
+            }
+          },
+          "429": {
+            "description": "Too Many Requests",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/HTTP_Status_429_Error_Object" }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal Server Error",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/HTTP_Status_500_Error_Object" }
+              }
+            }
+          }
+        }
+      }
+    },
     "/v5/real-world-assets/issuers/list": {
       "get": {
         "summary": "Issuers List",
@@ -14613,7 +14931,7 @@
                     "null"
                   ],
                   "format": "date-time",
-                  "description": "ISO 8601 timestamp of the earliest historical data point available; `null` if none.",
+                  "description": "ISO 8601 timestamp of the earliest price data CoinMarketCap holds for the underlying asset, for example 2009 for gold; `null` if none. The tokenized history in [/v5/real-world-assets/quotes/historical](/pro-api-reference/real-world-assets#quotes-historical-4) starts later, no earlier than January 1, 2020.",
                   "example": "2003-09-07T04:00:00.000Z"
                 },
                 "last_historical_data": {
@@ -15298,7 +15616,7 @@
                 "exchange_symbol": "NVDAX",
                 "currency_type": "cryptocurrency"
               },
-              "market_pair_quotes": {
+              "market_pair_quote": {
                 "crypto_id": 825,
                 "symbol": "USDT",
                 "exchange_symbol": "USDT",
@@ -15434,7 +15752,7 @@
                     }
                   }
                 },
-                "market_pair_quotes": {
+                "market_pair_quote": {
                   "type": "object",
                   "description": "Quote side of the pair.",
                   "properties": {
@@ -15890,6 +16208,147 @@
           "data"
         ]
       },
+      "RWA_Quotes_Historical_-_Results_object": {
+        "type": "object",
+        "description": "Results of your query returned as an object.",
+        "example": {
+          "rwa_assets": [
+            {
+              "name": "Nvidia Corp",
+              "symbol": "NVDA",
+              "slug": "nvidia",
+              "quotes": [
+                {
+                  "timestamp": "2026-11-17T05:00:00.000Z",
+                  "convert_id": 2781,
+                  "convert_symbol": "USD",
+                  "average_tokenized_price": 157.86910203115895,
+                  "tokenized_market_cap": 362817204.1754513,
+                  "tokenized_volume_24h": 321224540.9867724
+                },
+                {
+                  "timestamp": "2026-11-18T05:00:00.000Z",
+                  "convert_id": 2781,
+                  "convert_symbol": "USD",
+                  "average_tokenized_price": 157.31123163132813,
+                  "tokenized_market_cap": 392273916.1191814,
+                  "tokenized_volume_24h": 473033580.56851166
+                },
+                {
+                  "timestamp": "2026-11-19T05:00:00.000Z",
+                  "convert_id": 2781,
+                  "convert_symbol": "USD",
+                  "average_tokenized_price": 152.06295777583813,
+                  "tokenized_market_cap": 383038734.34426445,
+                  "tokenized_volume_24h": 356263300.4355586
+                }
+              ],
+              "rwa_id": 2,
+              "asset_type": "stock",
+              "rwa_rank": 4,
+              "has_tokens": true
+            }
+          ]
+        },
+        "properties": {
+          "rwa_assets": {
+            "type": "array",
+            "description": "One object per requested RWA asset, in the order requested.",
+            "items": {
+              "type": "object",
+              "properties": {
+                "name": { "type": "string", "description": "Asset display name.", "example": "NVIDIA" },
+                "symbol": {
+                  "type": "string",
+                  "description": "Asset symbol / ticker.",
+                  "example": "NVDA"
+                },
+                "slug": {
+                  "type": "string",
+                  "description": "URL-friendly lowercase slug.",
+                  "example": "nvidia"
+                },
+                "quotes": {
+                  "type": "array",
+                  "description": "The time series: one entry per data point per convert currency, oldest first and grouped by currency in the order requested. Empty when the asset has no tokens or no data in the window.",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "timestamp": {
+                        "type": "string",
+                        "format": "date-time",
+                        "description": "Start of the interval period the data point belongs to (ISO 8601, UTC).",
+                        "example": "2026-11-17T05:00:00.000Z"
+                      },
+                      "convert_id": {
+                        "type": "integer",
+                        "description": "CoinMarketCap ID of the convert currency (`2781` for USD).",
+                        "example": 2781
+                      },
+                      "convert_symbol": {
+                        "type": "string",
+                        "description": "Symbol of the convert currency.",
+                        "example": "USD"
+                      },
+                      "average_tokenized_price": {
+                        "type": "number",
+                        "description": "Aggregate price across the underlying tokens, in the convert currency.",
+                        "example": 157.86910203115895
+                      },
+                      "tokenized_market_cap": {
+                        "type": "number",
+                        "description": "Aggregate tokenized market cap, in the convert currency.",
+                        "example": 362817204.1754513
+                      },
+                      "tokenized_volume_24h": {
+                        "type": "number",
+                        "description": "Aggregate trailing 24h tokenized volume, in the convert currency.",
+                        "example": 321224540.9867724
+                      }
+                    }
+                  }
+                },
+                "rwa_id": {
+                  "type": "integer",
+                  "description": "RWA asset ID; the stable identifier to use across the RWA family.",
+                  "example": 2
+                },
+                "asset_type": {
+                  "type": "string",
+                  "enum": [
+                    "stock",
+                    "commodity",
+                    "currency",
+                    "government_security",
+                    "etf",
+                    "real_estate"
+                  ],
+                  "description": "Asset type. One of `stock`, `commodity`, `currency`, `government_security`, `etf`, `real_estate`.",
+                  "example": "stock"
+                },
+                "rwa_rank": {
+                  "type": "integer",
+                  "description": "Current RWA market-cap rank (1 = highest), not the rank at each data point. RWA-specific ranking, distinct from `cmc_rank`.",
+                  "example": 4
+                },
+                "has_tokens": {
+                  "type": "boolean",
+                  "description": "`true` if at least one token exists for this asset; `false` if there are no tokenized assets, in which case `quotes` is empty.",
+                  "example": true
+                }
+              }
+            }
+          }
+        }
+      },
+      "RWA_Quotes_Historical_-_Response_Model": {
+        "type": "object",
+        "properties": {
+          "data": { "$ref": "#/components/schemas/RWA_Quotes_Historical_-_Results_object" },
+          "status": { "$ref": "#/components/schemas/API_Status_Object" }
+        },
+        "required": ["data"]
+      },
       "assets_array": {
         "type": "array",
         "items": {
@@ -15932,8 +16391,11 @@
             "example": "2018-06-02T22:51:28.209Z"
           },
           "error_code": {
-            "type": "integer",
-            "description": "An internal error code for the current error. If a unique platform error code is not available the HTTP status code is returned.",
+            "type": [
+              "integer",
+              "string"
+            ],
+            "description": "An internal error code for the current error. If a unique platform error code is not available the HTTP status code is returned. Some endpoints return this code as a string, for example `\"4001\"`.",
             "example": 400,
             "default": 400
           },
@@ -15951,6 +16413,19 @@
             "type": "integer",
             "description": "Number of API call credits required for this call. Always 0 for errors.",
             "example": 0
+          },
+          "category": {
+            "type": "string",
+            "description": "Error category on some v5 endpoints, for example `VALIDATION` for an invalid parameter or `AUTH` for a plan limit.",
+            "example": "VALIDATION"
+          },
+          "error_detail": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "On some v5 endpoints, a more specific explanation of the error, such as the parameter that was rejected.",
+            "example": "convert is not supported by this endpoint."
           }
         },
         "required": ["timestamp", "error_code", "error_message", "elapsed", "credit_count"]
@@ -19794,9 +20269,11 @@
           "platform": {
             "anyOf": [
               {
+                "title": "Token platform",
                 "$ref": "#/components/schemas/Platform"
               },
               {
+                "title": "null (coins with their own blockchain)",
                 "type": "null"
               }
             ]
@@ -19854,7 +20331,10 @@
             "format": "int32"
           },
           "cmc_rank": {
-            "type": "integer",
+            "type": [
+              "integer",
+              "null"
+            ],
             "format": "int32"
           },
           "last_updated": {
@@ -19948,7 +20428,10 @@
             "description": "Currency symbol"
           },
           "price": {
-            "type": "number",
+            "type": [
+              "number",
+              "null"
+            ],
             "description": "Current price in the specified currency",
             "format": "bigdecimal"
           },
@@ -20028,7 +20511,10 @@
             "format": "bigdecimal"
           },
           "market_cap": {
-            "type": "number",
+            "type": [
+              "number",
+              "null"
+            ],
             "description": "Current market capitalization",
             "format": "bigdecimal"
           },
@@ -20085,9 +20571,11 @@
           "platform": {
             "anyOf": [
               {
+                "title": "Token platform",
                 "$ref": "#/components/schemas/Platform"
               },
               {
+                "title": "null (coins with their own blockchain)",
                 "type": "null"
               }
             ]
@@ -22423,9 +22911,11 @@
           "tags": {
             "anyOf": [
               {
+                "title": "Tag list",
                 "$ref": "#/components/schemas/tags_1"
               },
               {
+                "title": "null (no tags)",
                 "type": "null"
               }
             ]
@@ -22544,7 +23034,7 @@
       },
       "Cryptocurrency_Info_-_Results_map": {
         "type": "object",
-        "description": "Results of your query returned as an object map.",
+        "description": "One entry per cryptocurrency requested. Requests by `id`, `slug` or `address` are keyed by cryptocurrency ID, and requests by `symbol` are keyed by symbol.",
         "example": {
           "1": {
             "urls": {
@@ -22579,9 +23069,11 @@
           "description": "On the v2 endpoint, requests by `symbol` return an array of objects for each symbol, because more than one cryptocurrency can share a symbol. Requests by `id` or `slug` return a single object.",
           "oneOf": [
             {
+              "title": "Cryptocurrency",
               "$ref": "#/components/schemas/Cryptocurrencies_Info_-_Cryptocurrency_object._Please_note_this_will_be_wrapped_in_an_array_if_you_request_by_symbol_using_the_v2_endpoint."
             },
             {
+              "title": "Symbol matches (v2 symbol requests)",
               "type": "array",
               "items": {
                 "$ref": "#/components/schemas/Cryptocurrencies_Info_-_Cryptocurrency_object._Please_note_this_will_be_wrapped_in_an_array_if_you_request_by_symbol_using_the_v2_endpoint."
@@ -25493,7 +25985,7 @@
       },
       "Cryptocurrency_OHLCV_Historical_-_Results_object": {
         "type": "object",
-        "description": "Results of your query returned as an object.",
+        "description": "A cryptocurrency and its OHLCV quotes.",
         "example": {
           "id": 1,
           "name": "Bitcoin",
@@ -25561,15 +26053,30 @@
         "type": "object",
         "properties": {
           "data": {
-            "description": "A single object when you request one cryptocurrency, and an object map keyed by cryptocurrency ID when you request several.",
+            "description": "The shape depends on the identifiers you send:\n\n- **One cryptocurrency** - one `id` or `slug` (or one `symbol` on v1) returns the cryptocurrency object itself.\n- **Object map** - several `id`, `slug` or `symbol` values return an object map keyed by the identifiers you sent (IDs, slugs or symbols).\n- **Symbol lookups (v2)** - every v2 `symbol` request returns an object map keyed by symbol, and each value is an array of all cryptocurrencies that share the symbol, even when you send one symbol.",
             "oneOf": [
               {
+                "title": "Object map",
                 "type": "object",
+                "description": "One entry per identifier you sent, keyed by cryptocurrency ID, slug or symbol.",
                 "additionalProperties": {
-                  "$ref": "#/components/schemas/Cryptocurrency_OHLCV_Historical_-_Results_object"
+                  "oneOf": [
+                    {
+                      "title": "Cryptocurrency",
+                      "$ref": "#/components/schemas/Cryptocurrency_OHLCV_Historical_-_Results_object"
+                    },
+                    {
+                      "title": "Symbol matches (v2 symbol requests)",
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Cryptocurrency_OHLCV_Historical_-_Results_object"
+                      }
+                    }
+                  ]
                 }
               },
               {
+                "title": "One cryptocurrency",
                 "$ref": "#/components/schemas/Cryptocurrency_OHLCV_Historical_-_Results_object"
               }
             ]
@@ -25579,6 +26086,159 @@
           }
         },
         "required": ["data"]
+      },
+      "Cryptocurrency_OHLCV_Historical_v5_-_Response_Model": {
+        "type": "object",
+        "properties": {
+          "data": {
+            "type": "array",
+            "description": "Candles, oldest first. Empty when the window has no data.",
+            "items": {
+              "$ref": "#/components/schemas/Cryptocurrency_OHLCV_Historical_v5_-_Candle"
+            }
+          },
+          "status": {
+            "$ref": "#/components/schemas/API_Status_Object"
+          }
+        },
+        "required": [
+          "data"
+        ],
+        "example": {
+          "data": [
+            [
+              78559.1131265811,
+              78748.50143864893,
+              78549.03085271013,
+              78727.98306878311,
+              30034635342.11,
+              1580696743839.83,
+              "2026-09-01T00:00:00.000Z",
+              "2026-09-01T00:12:00.000Z",
+              "2026-09-01T00:01:00.000Z",
+              "2026-09-01T00:14:59.999Z"
+            ],
+            [
+              78737.76559810448,
+              78881.55883757334,
+              78737.76559810448,
+              78854.57252549069,
+              30041940429.35,
+              1583238401001.9,
+              "2026-09-01T00:15:00.000Z",
+              "2026-09-01T00:28:00.000Z",
+              "2026-09-01T00:15:00.000Z",
+              "2026-09-01T00:29:59.999Z"
+            ],
+            [
+              78845.01243441102,
+              78845.01243441102,
+              78684.2224550443,
+              78684.2224550443,
+              29878468702.82,
+              1579819536609.93,
+              "2026-09-01T00:30:00.000Z",
+              "2026-09-01T00:30:00.000Z",
+              "2026-09-01T00:44:00.000Z",
+              "2026-09-01T00:44:59.999Z"
+            ]
+          ],
+          "status": {
+            "timestamp": "2026-11-11T10:18:24.323Z",
+            "error_code": "0",
+            "error_message": "",
+            "elapsed": 31,
+            "credit_count": 1
+          }
+        }
+      },
+      "Cryptocurrency_OHLCV_Historical_v5_-_Candle": {
+        "type": "array",
+        "description": "One candle: 10 values in a fixed order. Read them by position.",
+        "prefixItems": [
+          {
+            "title": "openPrice",
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "0 - Open price: the first price in the period."
+          },
+          {
+            "title": "highPrice",
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "1 - High price: the highest price in the period."
+          },
+          {
+            "title": "lowPrice",
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "2 - Low price: the lowest price in the period."
+          },
+          {
+            "title": "closePrice",
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "3 - Close price: the last price in the period."
+          },
+          {
+            "title": "volume",
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "4 - Trading volume in the period."
+          },
+          {
+            "title": "marketcap",
+            "type": [
+              "number",
+              "null"
+            ],
+            "description": "5 - Market cap at the close of the period."
+          },
+          {
+            "title": "openTime",
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "6 - Start of the period (ISO 8601, UTC)."
+          },
+          {
+            "title": "highTime",
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "7 - Time of the high price (ISO 8601, UTC)."
+          },
+          {
+            "title": "lowTime",
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "8 - Time of the low price (ISO 8601, UTC)."
+          },
+          {
+            "title": "closeTime",
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "9 - End of the period (ISO 8601, UTC), for example `2025-01-02T23:59:59.999Z`."
+          }
+        ],
+        "minItems": 10,
+        "maxItems": 10
       },
       "Cryptocurrency_OHLCV_Latest_-_Quote_object": {
         "type": "object",
@@ -26042,7 +26702,7 @@
       },
       "Cryptocurrency_Quotes_Historical_-_Result_object": {
         "type": "object",
-        "description": "A results object for each cryptocurrency requested. The map key being the id/symbol used in the request.",
+        "description": "A cryptocurrency and its historical quotes.",
         "properties": {
           "id": {
             "type": "integer",
@@ -26081,7 +26741,7 @@
       },
       "Cryptocurrency_Quotes_Historical_-_Results_map": {
         "type": "object",
-        "description": "Results of your query returned as an object map.",
+        "description": "One entry per identifier you sent, keyed by cryptocurrency ID or symbol.",
         "example": {
           "1": {
             "id": 1,
@@ -26105,19 +26765,33 @@
           }
         },
         "additionalProperties": {
-          "$ref": "#/components/schemas/Cryptocurrency_Quotes_Historical_-_Result_object"
+          "oneOf": [
+            {
+              "title": "Cryptocurrency",
+              "$ref": "#/components/schemas/Cryptocurrency_Quotes_Historical_-_Result_object"
+            },
+            {
+              "title": "Symbol matches (v2 and v3 symbol requests)",
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/Cryptocurrency_Quotes_Historical_-_Result_object"
+              }
+            }
+          ]
         }
       },
       "Cryptocurrency_Quotes_Historical_-_Response_Model": {
         "type": "object",
         "properties": {
           "data": {
-            "description": "The v3 endpoint always returns an object map keyed by cryptocurrency ID. The v1 and v2 endpoints return a single object when you request one cryptocurrency, and an object map keyed by ID when you request several.",
+            "description": "The shape depends on the endpoint version and on the identifiers you send:\n\n- **One cryptocurrency (v1 and v2)** - one `id`, or one `symbol` on v1, returns the cryptocurrency object itself.\n- **Object map** - several `id` or `symbol` values on v1 and v2, and every v3 request, return an object map keyed by the identifiers you sent (IDs or symbols).\n- **Symbol lookups (v2 and v3)** - each map value is an array of all cryptocurrencies that share the symbol, even when you send one symbol.",
             "oneOf": [
               {
+                "title": "Object map",
                 "$ref": "#/components/schemas/Cryptocurrency_Quotes_Historical_-_Results_map"
               },
               {
+                "title": "One cryptocurrency (v1 and v2)",
                 "$ref": "#/components/schemas/Cryptocurrency_Quotes_Historical_-_Result_object"
               }
             ]
@@ -26349,9 +27023,11 @@
             "items": {
               "anyOf": [
                 {
+                  "title": "Tag slug (v1)",
                   "type": "string"
                 },
                 {
+                  "title": "Tag object (v2)",
                   "type": "object",
                   "properties": {
                     "slug": {
@@ -26414,7 +27090,7 @@
       },
       "Cryptocurrency_Quotes_Latest_-_Cryptocurrency_Results_map": {
         "type": "object",
-        "description": "A map of cryptocurrency objects by ID, symbol, or slug (as used in query parameters).",
+        "description": "One entry per cryptocurrency requested. Requests by `id` or `slug` are keyed by cryptocurrency ID, and requests by `symbol` are keyed by symbol.",
         "example": {
           "1": {
             "id": 1,
@@ -26456,9 +27132,11 @@
           "description": "On the v2 endpoint, requests by `symbol` return an array of objects for each symbol, because more than one cryptocurrency can share a symbol. Requests by `id` or `slug` return a single object.",
           "oneOf": [
             {
+              "title": "Cryptocurrency",
               "$ref": "#/components/schemas/Cryptocurrency_Quotes_Latest_-_Cryptocurrency_object"
             },
             {
+              "title": "Symbol matches (v2 symbol requests)",
               "type": "array",
               "items": {
                 "$ref": "#/components/schemas/Cryptocurrency_Quotes_Latest_-_Cryptocurrency_object"
@@ -27530,7 +28208,7 @@
       },
       "Exchange_Historical_Quotes_-_exchange_object": {
         "type": "object",
-        "description": "An exchange object for each exchange requested. The map key being the id/slug used in the request.",
+        "description": "An exchange and its historical quotes.",
         "properties": {
           "id": {
             "type": "integer",
@@ -27555,9 +28233,9 @@
       },
       "Exchange_Historical_Quotes_-_Results_map": {
         "type": "object",
-        "description": "Results of your query returned as an object map.",
+        "description": "One entry per exchange requested, keyed by the exchange ID or slug you sent.",
         "example": {
-          "1": {
+          "270": {
             "id": 270,
             "name": "Binance",
             "slug": "binance",
@@ -27603,12 +28281,14 @@
         "type": "object",
         "properties": {
           "data": {
-            "description": "A single object when you request one exchange, and an object map keyed by exchange ID when you request several.",
+            "description": "One exchange returns the exchange object itself. Several exchanges return an object map with one entry per exchange, keyed by the identifiers you sent: exchange IDs for `id` requests and slugs for `slug` requests.",
             "oneOf": [
               {
+                "title": "Several exchanges",
                 "$ref": "#/components/schemas/Exchange_Historical_Quotes_-_Results_map"
               },
               {
+                "title": "One exchange",
                 "$ref": "#/components/schemas/Exchange_Historical_Quotes_-_exchange_object"
               }
             ]
