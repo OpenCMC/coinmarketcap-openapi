@@ -17,7 +17,7 @@ Each SDK is generated from `openapi.json`:
 
 - TypeScript / JavaScript: [`@coinmarketcap/sdk`](https://www.npmjs.com/package/@coinmarketcap/sdk) ([source](https://github.com/OpenCMC/coinmarketcap-api-typescript))
 - Python: [`coinmarketcap-sdk`](https://pypi.org/project/coinmarketcap-sdk/) ([source](https://github.com/OpenCMC/coinmarketcap-api-python))
-- Go: [`github.com/OpenCMC/coinmarketcap-api-go/v5`](https://pkg.go.dev/github.com/OpenCMC/coinmarketcap-api-go/v5) ([source](https://github.com/OpenCMC/coinmarketcap-api-go))
+- Go: [`github.com/OpenCMC/coinmarketcap-api-go/v6`](https://pkg.go.dev/github.com/OpenCMC/coinmarketcap-api-go/v6) ([source](https://github.com/OpenCMC/coinmarketcap-api-go))
 
 ## Updates
 
