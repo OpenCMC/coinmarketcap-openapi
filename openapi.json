@@ -1628,8 +1628,7 @@
             "schema": {
               "type": "integer",
               "minimum": 1,
-              "maximum": 10000,
-              "default": 10
+              "maximum": 10000
             }
           },
           {
@@ -26092,7 +26091,7 @@
         "properties": {
           "data": {
             "type": "array",
-            "description": "Candles, oldest first. Empty when the window has no data.",
+            "description": "Candles, oldest first. Empty when the window has no data.\n\nEach candle is an array of 10 values. Read them by index:\n\n| Index | Value |\n|---|---|\n| 0 | Open price |\n| 1 | High price |\n| 2 | Low price |\n| 3 | Close price |\n| 4 | Volume |\n| 5 | Market cap |\n| 6 | Open time - start of the period (ISO 8601, UTC) |\n| 7 | High time - time of the high price |\n| 8 | Low time - time of the low price |\n| 9 | Close time - end of the period |",
             "items": {
               "$ref": "#/components/schemas/Cryptocurrency_OHLCV_Historical_v5_-_Candle"
             }
@@ -26162,7 +26161,7 @@
               "number",
               "null"
             ],
-            "description": "0 - Open price: the first price in the period."
+            "description": "Open price: the first price in the period."
           },
           {
             "title": "highPrice",
@@ -26170,7 +26169,7 @@
               "number",
               "null"
             ],
-            "description": "1 - High price: the highest price in the period."
+            "description": "High price: the highest price in the period."
           },
           {
             "title": "lowPrice",
@@ -26178,7 +26177,7 @@
               "number",
               "null"
             ],
-            "description": "2 - Low price: the lowest price in the period."
+            "description": "Low price: the lowest price in the period."
           },
           {
             "title": "closePrice",
@@ -26186,7 +26185,7 @@
               "number",
               "null"
             ],
-            "description": "3 - Close price: the last price in the period."
+            "description": "Close price: the last price in the period."
           },
           {
             "title": "volume",
@@ -26194,7 +26193,7 @@
               "number",
               "null"
             ],
-            "description": "4 - Trading volume in the period."
+            "description": "Trading volume in the period."
           },
           {
             "title": "marketcap",
@@ -26202,7 +26201,7 @@
               "number",
               "null"
             ],
-            "description": "5 - Market cap at the close of the period."
+            "description": "Market cap at the close of the period."
           },
           {
             "title": "openTime",
@@ -26210,7 +26209,7 @@
               "string",
               "null"
             ],
-            "description": "6 - Start of the period (ISO 8601, UTC)."
+            "description": "Start of the period (ISO 8601, UTC)."
           },
           {
             "title": "highTime",
@@ -26218,7 +26217,7 @@
               "string",
               "null"
             ],
-            "description": "7 - Time of the high price (ISO 8601, UTC)."
+            "description": "Time of the high price (ISO 8601, UTC)."
           },
           {
             "title": "lowTime",
@@ -26226,7 +26225,7 @@
               "string",
               "null"
             ],
-            "description": "8 - Time of the low price (ISO 8601, UTC)."
+            "description": "Time of the low price (ISO 8601, UTC)."
           },
           {
             "title": "closeTime",
@@ -26234,7 +26233,7 @@
               "string",
               "null"
             ],
-            "description": "9 - End of the period (ISO 8601, UTC), for example `2025-01-02T23:59:59.999Z`."
+            "description": "End of the period (ISO 8601, UTC), for example `2025-01-02T23:59:59.999Z`."
           }
         ],
         "minItems": 10,
